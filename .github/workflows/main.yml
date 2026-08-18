@@ -26,14 +26,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests pyyaml urllib3
 
-      - name: Run app_iran_gemini.py
-        run: python app_iran_gemini.py
+      - name: Run claude.py
+        run: python claude.py
 
-      - name: Run app_iran_gpt.py
-        run: python app_iran_gpt.py
-
-      - name: Run app_iran_grok.py
-        run: python app_iran_grok.py
 
      
       - name: Commit generated YAML files
