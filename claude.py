@@ -249,6 +249,25 @@ def uniquify_names(proxies: List[Dict]) -> None:
 # ساخت entry نهایی هر proxy برای YAML
 # ----------------------------------------------------------------------------
 
+def safe_short_id(raw) -> str:
+    """
+    لایه‌ی ایمنی نهایی: مهم نیست raw چی باشه (None، عدد، رشته‌ی نامعتبر)،
+    این تابع همیشه یک str معتبر و قابل قبول برای mihomo برمی‌گردونه.
+    دلیل وجودش: باگ معروف mihomo/OpenClash که وقتی reality-opts.short-id
+    در YAML به‌جای رشته‌ی خالی '' به null تبدیل بشه، هسته با خطای دقیقاً
+    همین "invalid REALITY short ID" کرش می‌کنه (نگاه کن به
+    vernesong/OpenClash#5053 و MetaCubeX/mihomo#2637). چون مقدار sid قبلاً
+    در parse_line اعتبارسنجی شده، اینجا فقط از تبدیل تصادفی به None جلوگیری
+    می‌کنیم.
+    """
+    if raw is None:
+        return ""
+    s = str(raw).strip()
+    if not is_valid_short_id(s):
+        return ""
+    return s
+
+
 def build_proxy_entry(p: Dict) -> Dict:
     entry: Dict = {
         "name": p["name"],
@@ -263,10 +282,8 @@ def build_proxy_entry(p: Dict) -> Dict:
         "client-fingerprint": p["fp"],
         "reality-opts": {
             "public-key": p["pbk"],
-            # اگر sid خالی باشه، بازم کلید short-id رو با مقدار خالی می‌ذاریم؛
-            # چون بعضی هسته‌ها (mihomo) نبود کامل کلید رو با sid نامعتبر یکی
-            # می‌گیرن. رشته‌ی خالی همیشه معتبره (یعنی «بدون short-id»).
-            "short-id": p["sid"],
+            # هرگز None/null نمی‌فرستیم؛ رشته‌ی خالی معتبره، null معتبر نیست.
+            "short-id": safe_short_id(p.get("sid")),
         },
     }
     if p["flow"]:
@@ -442,6 +459,15 @@ def main() -> None:
 
     print("\n[4/5] ساخت proxies و ساختار کامل YAML...")
     proxies = [build_proxy_entry(p) for p in unique]
+
+    # بازبینی نهایی دفاعی: هر آیتمی که reality-opts.short-id توش None باشه یا
+    # از regex هگز رد نشه، همون‌جا با اندیسش لاگ و اصلاح می‌شه. اگه این پیام
+    # چاپ بشه یعنی یه جای دیگه (نه parse_line) مقدار غیرمنتظره تولید کرده.
+    for idx, entry in enumerate(proxies):
+        sid = entry.get("reality-opts", {}).get("short-id")
+        if sid is None or not is_valid_short_id(sid):
+            print(f"  ⚠️  proxy {idx} ({entry.get('name')}): short-id نامعتبر بود، به '' تبدیل شد")
+            entry["reality-opts"]["short-id"] = ""
 
     config = {
         "mixed-port": 7890,
