@@ -68,7 +68,575 @@ dns:
     +.irancell.ir: https://free.shecan.ir/dns-query
     +.mci.ir: https://free.shecan.ir/dns-query
 proxies:
+- name: Domain-configs
+  type: vless
+  server: au1.gsafevpnapi.com
+  port: 20270
+  uuid: 6eef3a79-22bc-4086-b5e6-95e07db73016
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE
+    short-id: e6a5a4a9115456de
+  flow: xtls-rprx-vision
+- name: 🇦🇹AT-configs
+  type: vless
+  server: 152.53.1.40
+  port: 443
+  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
+  network: tcp
+  tls: true
+  udp: true
+  servername: at.quattro-tech.ru
+  client-fingerprint: qq
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: 43dcff53849b81e6
+  flow: xtls-rprx-vision
+- name: 🇺🇸US-configs
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: a9dae5b2-ac94-417f-b3dd-882a3d7a6a85
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 🇫🇷FR-configs
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+    short-id: bfe58beb41f1d09f
+- name: 🇸🇪SE-configs
+  type: vless
+  server: 94.183.224.45
+  port: 443
+  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+  network: tcp
+  tls: true
+  udp: true
+  servername: dzen.ru
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
+    short-id: a1b2c3d4e5f67890
+  flow: xtls-rprx-vision
+- name: 🇦🇪AE-configs
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: db381c11-9dc4-4689-b654-a8159598e16d
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 🇬🇧GB-configs
+  type: vless
+  server: 107.181.151.241
+  port: 443
+  uuid: de38389f-5651-4f2f-8276-5aabf3b861c9
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.hollywoodreporter.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 225e930cfd4d
+  flow: xtls-rprx-vision
+- name: 🇳🇱NL-configs
+  type: vless
+  server: 152.70.58.201
+  port: 443
+  uuid: 8892e34a-339b-4526-b88d-cf68c516231c
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.nvidia.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28
+    short-id: 52c723e0fad49689
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #2'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 10fc2588-4a73-48c4-93c6-147d15165780
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇬🇧GB-configs #2'
+  type: vless
+  server: 107.181.151.39
+  port: 443
+  uuid: 1896c6c9-a941-4688-a865-29027bf7f8e6
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 6c825bc79850
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #2'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 62a096ea-03a4-43a7-920f-50cb0c0a6f42
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇳🇱NL-configs #2'
+  type: vless
+  server: 185.233.202.41
+  port: 443
+  uuid: fc47db0c-c6f2-4665-bdb2-8f717822ce9d
+  network: tcp
+  tls: true
+  udp: true
+  servername: 0j9fwq9jf0qw.datahubfiles.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: owBYcRXlCA7H4KoWEO_077A9F1dDTvCDbxPVMp1x0To
+    short-id: 41c4c3af490ea04e
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #3'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 5c31ca5d-0094-4a7e-a06e-7f2ce96e44db
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #4'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: b2c282ed-e133-451e-9574-aa81321d84a3
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
 - name: 🇩🇪DE-configs
+  type: vless
+  server: 169.40.42.163
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: 🇭🇰HK-configs
+  type: vless
+  server: 34.92.145.185
+  port: 443
+  uuid: 75d38591-267e-4d89-98bc-164f25b50880
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4
+    short-id: 64b3f192fc0669e1
+- name: '🇺🇸US-configs #5'
+  type: vless
+  server: 162.35.104.143
+  port: 443
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  network: tcp
+  tls: true
+  udp: true
+  servername: sheetpeek.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo
+    short-id: 84be686ea1d16478
+  flow: xtls-rprx-vision
+- name: 🇪🇸ES-configs
+  type: vless
+  server: 212.227.235.66
+  port: 2053
+  uuid: ead0dd61-d398-40ad-80d6-a0e1e516d7d3
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk
+    short-id: 29e8dcd2b37aaa7f
+- name: '🇺🇸US-configs #6'
+  type: vless
+  server: 13.143.166.25
+  port: 443
+  uuid: dcf8e133-09a2-4884-abf9-80356bb334ac
+  network: tcp
+  tls: true
+  udp: true
+  servername: ivory875.filebeam.website
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM
+    short-id: a7c31f92
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #3'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: e177b819-cfc2-4c59-bd37-e9cf15bc3bc3
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #7'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 137c30a7-d172-4b6c-a97b-c3a6a4fda042
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇳🇱NL-configs #3'
+  type: vless
+  server: 51.158.206.12
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  flow: xtls-rprx-vision
+- name: 🇰🇿KZ-configs
+  type: vless
+  server: 83.222.23.81
+  port: 38065
+  uuid: 4b9063e0-3288-44e9-9aac-80fbfce323a0
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo
+    short-id: fa
+- name: '🇺🇸US-configs #8'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 729a4d09-67a5-4e62-af06-68539f3d7721
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #9'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 2733bd9c-4f35-45f2-a59f-e67b618664f2
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #10'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 11cf4be2-8e22-410b-ac9f-c389d2b2e1cd
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #11'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 62d2db25-dd18-4427-b753-ff62938207ea
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #2'
+  type: vless
+  server: jumpernode.online
+  port: 443
+  uuid: ce7beb9a-5dc1-47b3-b3ff-94521430c446
+  network: tcp
+  tls: true
+  udp: true
+  servername: yp.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
+    short-id: 5ea30fc4
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #2'
+  type: vless
+  server: 169.40.42.75
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: '🇬🇧GB-configs #3'
+  type: vless
+  server: 107.181.151.241
+  port: 443
+  uuid: 106d20f6-d70a-40e2-b69b-8e82baf8d117
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 60500a63ad12
+  flow: xtls-rprx-vision
+- name: 🇰🇷KR-configs
+  type: vless
+  server: 34.64.149.137
+  port: 443
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+    short-id: 3fd0a8ddef3ae5c6
+- name: 🇮🇱IL-configs
+  type: vless
+  server: 185.95.231.233
+  port: 443
+  uuid: 1ffa8e68-3378-4cf4-b8f6-44bf3d46d106
+  network: tcp
+  tls: true
+  udp: true
+  servername: store.steampowered.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: r4Dp3mztZaizbDk28rEOkLikk7erR9dzzc-Jrsgraho
+    short-id: a1b2c3d4
+  flow: xtls-rprx-vision
+- name: '🇳🇱NL-configs #4'
+  type: vless
+  server: 86.54.28.75
+  port: 443
+  uuid: 44ae52b9-76fc-444d-8e43-186b4384b80a
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: PryGoq51ilG0eLUPl9i0xCvmk1xpwkyFSr_tG4GNLlU
+    short-id: 1d86d17709852910
+  flow: xtls-rprx-vision
+- name: 🇨🇾CY-configs
+  type: vless
+  server: 5.253.30.99
+  port: 40443
+  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
+  network: tcp
+  tls: true
+  udp: true
+  servername: deepl.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+    short-id: 88b6
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #3'
+  type: vless
+  server: au1.gsafevpnapi.com
+  port: 20270
+  uuid: 38b8e2fb-b9a0-40a6-b42c-335def2765cf
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE
+    short-id: e6a5a4a9115456de
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #3'
+  type: vless
+  server: 169.40.42.74
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #4'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 2202f333-f8d6-4e13-a6c7-0b437e42f5e3
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #12'
+  type: vless
+  server: 107.173.237.146
+  port: 8443
+  uuid: 1d39f715-2740-4d99-bc3b-197cc48dcee7
+  network: tcp
+  tls: true
+  udp: true
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: D3ojIs3AUKP_tV0E4TEjh90HBVJp24Nq3qMfdxD30kc
+    short-id: df8611c07d
+- name: 🇯🇵JP-configs
+  type: vless
+  server: 8.209.217.129
+  port: 443
+  uuid: 4a1bd3a7-22e6-4ed0-add4-7ee824d8f54a
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.logitech.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Ci03uVNJ34iSg-BSeOgrhTAeWcJExB5gQNuQVRY3a2Q
+    short-id: 01b4986b50245272
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #13'
+  type: vless
+  server: 5.78.159.214
+  port: 80
+  uuid: 52ecd83b-b6c1-41ee-bc36-049755bd33d2
+  network: tcp
+  tls: true
+  udp: true
+  servername: 5.78.159.214
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: NTXb7QGg9EyPkpG-7lmBNNaqf4473p_l8ITmTH-xmHg
+    short-id: 0db5c018ed7bb596
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #5'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 93a8f0b3-4c97-4d14-999c-c207a55b70b0
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #4'
   type: vless
   server: 169.40.42.89
   port: 443
@@ -77,26 +645,427 @@ proxies:
   tls: true
   udp: true
   servername: yahoo.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   flow: xtls-rprx-vision
-- name: 🇺🇸US-configs
+- name: '🇩🇪DE-configs #5'
   type: vless
-  server: 144.31.50.236
-  port: 443
-  uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
+  server: 77.91.76.156
+  port: 57160
+  uuid: 68ad9a6d-2463-4c31-92a7-31547b9d4783
   network: tcp
   tls: true
   udp: true
-  servername: yandex.ru
+  servername: funpay.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw
+    short-id: 77b5
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #4'
+  type: vless
+  server: jumpernode.online
+  port: 443
+  uuid: e4cd263b-c5c7-4410-bf61-8893179ec429
+  network: tcp
+  tls: true
+  udp: true
+  servername: amazon.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
-    short-id: bbe46bd8f6b96839
+    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
+    short-id: 6d962e8d8a0dce
   flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #2'
+- name: 'Domain-configs #5'
+  type: vless
+  server: hinet1.2yly.com
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  network: tcp
+  tls: true
+  udp: true
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+    short-id: ''
+- name: '🇺🇸US-configs #14'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: c91b7fa9-e8d1-4b49-94fa-72cce126e61b
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #6'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 05819bb1-2975-473c-a51f-0fbccf8d2cfa
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #15'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: b77411ca-a4f1-4c3a-aadb-b4d9320a6dc1
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #16'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: c0c5a312-f9d3-4eb4-ad6a-0aa2738ac7ab
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #17'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: b53e1643-7371-43a2-ae13-373413b1a9fa
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #18'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 2ddd1e4f-90ff-4723-9542-09b0116f6067
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇫🇷FR-configs #2'
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+    short-id: 50ba05992b05c1c3
+- name: 🇨🇦CA-configs
+  type: vless
+  server: 34.186.193.91
+  port: 443
+  uuid: 2ea95ec3-6b09-470e-952a-ebb171b0d666
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 0dSYzX_uvVr-YmiONeKxPt7TdFkaFeYopYfjobxxEC4
+    short-id: 341ec000a90f1ced
+- name: '🇦🇪AE-configs #7'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 41a463f0-8c2d-4090-8456-e3278cab8fa2
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 🇹🇼TW-configs
+  type: vless
+  server: 34.81.223.1
+  port: 443
+  uuid: 31a40f42-4ad6-4a32-a760-71102b459584
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: qvekI7tKB1NDnZA6JcS_24aV4n8mlCbI3SFvkRr22wg
+    short-id: d74a6321deec9f31
+- name: '🇦🇪AE-configs #8'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: c1531de5-1fde-4a15-b413-5e4456a16337
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #19'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: d0da19f1-fb05-488e-99c2-262389b3537b
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #20'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: fabd51c7-89f5-4a4b-8af7-09a515b64f2d
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #21'
+  type: vless
+  server: 31.77.199.147
+  port: 4443
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  network: tcp
+  tls: true
+  udp: true
+  servername: images.unsplash.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: GvkQwcZWiXQBLzEhTVfQkyPpdgo6Opc3RtLsED9sA0A
+    short-id: 7da2eae792187ab9
+  flow: xtls-rprx-vision
+- name: 🇵🇱PL-configs
+  type: vless
+  server: 2.59.253.251
+  port: 443
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  network: tcp
+  tls: true
+  udp: true
+  servername: nvidia.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #9'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 36d8ee9f-f14d-4de6-bcf3-39522a09e206
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 🇱🇹LT-configs
+  type: vless
+  server: 84.32.215.94
+  port: 443
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  network: tcp
+  tls: true
+  udp: true
+  servername: lt.aether-runet.top
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk
+    short-id: 4fa44664f6a566d3
+  flow: xtls-rprx-vision
+- name: 🇸🇬SG-configs
+  type: vless
+  server: 206.206.76.75
+  port: 443
+  uuid: 1e3d3634-36ac-43ac-a439-9665d885238f
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: TqIFzUEEI1pIOR8BEpkNKEXcJ6cPfE5EzHb5joIivig
+    short-id: 9930177816ab09da
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #22'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 731079ad-741a-4ffd-87be-4b829fe7e843
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #10'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 8e7df32a-fd3e-457c-950e-e131699bcf70
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 🇮🇹IT-configs
+  type: vless
+  server: 57.131.38.163
+  port: 2053
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+    short-id: 5b8a942318178e7b
+- name: 🇧🇬BG-configs
+  type: vless
+  server: 136.175.82.85
+  port: 18775
+  uuid: 9ae5940b-0278-403d-a1e1-9dddc47bdcf6
+  network: tcp
+  tls: true
+  udp: true
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: oR75S6pg_RDAKIuzv_WrCiwaUqqFoek2iuo5N22llQQ
+    short-id: 6ba85179e30d4fc2
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #11'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: f62a8f0e-f8db-48a6-8f52-84922aa63368
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 🇹🇷TR-configs
+  type: vless
+  server: 78.135.73.47
+  port: 443
+  uuid: 25e16692-d097-4e69-9e2d-8415609c1968
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.datadoghq.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
+    short-id: f46cd3ea3d1eb72d
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #6'
+  type: vless
+  server: 169.40.42.16
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #7'
+  type: vless
+  server: 2.26.51.75
+  port: 443
+  uuid: 57e2a48b-0cc2-4b60-aacd-b36358fcba96
+  network: tcp
+  tls: true
+  udp: true
+  servername: 4pda.to
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 8q_xD5tfjZGDPsnq-3VqXWVV7-D03crExMBuL4xQNBM
+    short-id: d4f6a8c1b2e3f9aa
+  flow: xtls-rprx-vision
+- name: '🇯🇵JP-configs #2'
+  type: vless
+  server: 103.75.118.228
+  port: 12683
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #23'
   type: vless
   server: 31.58.50.200
   port: 8443
@@ -110,11 +1079,107 @@ proxies:
     public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #3'
+- name: '🇰🇿KZ-configs #2'
+  type: vless
+  server: 109.248.170.119
+  port: 13447
+  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
+    short-id: '83'
+- name: '🇳🇱NL-configs #5'
+  type: vless
+  server: 51.158.206.103
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #12'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: a85d3eb0-c71e-4086-8139-6ac7c9120389
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #24'
   type: vless
   server: 31.58.50.200
   port: 8443
-  uuid: b2c282ed-e133-451e-9574-aa81321d84a3
+  uuid: 984ab184-21c2-44a0-9705-0ebaa410dc87
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇹🇷TR-configs #2'
+  type: vless
+  server: 151.241.226.201
+  port: 2053
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+    short-id: 9e419c0759b54d6f
+- name: 🇫🇮FI-configs
+  type: vless
+  server: 95.217.24.236
+  port: 2087
+  uuid: 10d85f65-f8d6-4504-b1e2-94649db1577a
+  network: tcp
+  tls: true
+  udp: true
+  servername: 62.238.41.21
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: KN8tFlpIwPgJGwUCG7Pp9c9c0juYKPvNIv4kFHwqbyk
+    short-id: a32cfb5deca913ad
+  flow: xtls-rprx-vision
+- name: 🇪🇪EE-configs
+  type: vless
+  server: 95.85.224.51
+  port: 443
+  uuid: 342ab7e4-5a89-0001-8809-304120d4aa83
+  network: tcp
+  tls: true
+  udp: true
+  servername: max.ru
+  client-fingerprint: qq
+  reality-opts:
+    public-key: WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc
+    short-id: a696de84963656de
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #25'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: c0fbbe19-764c-4941-b0db-e7099fbc2028
   network: tcp
   tls: true
   udp: true
@@ -138,9 +1203,106 @@ proxies:
     public-key: byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE
     short-id: fe24f8a0a560056e
   flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #2'
+- name: 'Domain-configs #6'
   type: vless
-  server: 169.40.42.133
+  server: sql.popmintxo.cc
+  port: 443
+  uuid: d806a58b-33aa-42e0-b170-395e49c16b37
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Y0noOXC8qHmbM0GmDpj-9BBwKSOtHs-uMbNfKU050GQ
+    short-id: b558b9305a0b
+  flow: xtls-rprx-vision
+- name: '🇯🇵JP-configs #3'
+  type: vless
+  server: 13.231.19.51
+  port: 11690
+  uuid: e2b8b217-cffb-4d66-9b8b-eca6e4334032
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.tesla.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Bv3z0_uFRabB9C4CFpNfqepZUyeO4YTh1duJdMBNLkg
+    short-id: 034885e346fd30
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #26'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: eb7f20b9-9fcf-47b2-a2d1-5bf8c333a5ec
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇫🇮FI-configs #2'
+  type: vless
+  server: 103.245.229.32
+  port: 443
+  uuid: 8bbe5178-a991-4a56-871c-553e2f8e9e70
+  network: tcp
+  tls: true
+  udp: true
+  servername: adminvps.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: sUDdxp5g9lRHlVEH6meJWXah84yhLDyVI7KuZhW-MTQ
+    short-id: b4e44a
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #27'
+  type: vless
+  server: 143.246.194.213
+  port: 443
+  uuid: dc9e93bc-b53a-11f1-91d3-52540030ba36
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.ikea.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #13'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 9386fa46-72be-4cc5-ab87-f23f4c0fe9b7
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇸🇪SE-configs #2'
+  type: vless
+  server: 213.21.246.124
+  port: 443
+  uuid: d929e993-8053-488a-8a22-0ae09f706a2e
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.goo.gl
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 3Qh9roHIRJtLEM-gV_hudQrY6wPK_Dc3ePVtWLGqYho
+    short-id: ef7db38f625526f5
+- name: '🇩🇪DE-configs #8'
+  type: vless
+  server: 169.40.42.168
   port: 443
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   network: tcp
@@ -152,53 +1314,39 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   flow: xtls-rprx-vision
-- name: Domain-configs
+- name: '🇰🇷KR-configs #2'
   type: vless
-  server: hk-1.gsafevpnapi.com
-  port: 20270
-  uuid: 8f2774ba-73fe-404d-a01b-7c01812ff75b
+  server: 3.39.4.109
+  port: 18967
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
   network: tcp
   tls: true
   udp: true
-  servername: www.yahoo.com
+  servername: www.apple.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: 0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8
-    short-id: d5b538acf8a93540
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
   flow: xtls-rprx-vision
-- name: 🇳🇱NL-configs
+- name: '🇺🇸US-configs #28'
   type: vless
-  server: 2.27.210.39
-  port: 443
-  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
+  server: 15.204.97.209
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
   tls: true
   udp: true
-  servername: ciccuc.mervi.icu
-  client-fingerprint: qq
+  servername: fuck.rkn
+  client-fingerprint: random
   reality-opts:
-    public-key: 3J-u0CiyQk47zVzkuMVgOiVIYtomNZPr__85MDxGxVw
-    short-id: 5029592ae5516948
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: ''
   flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #3'
-  type: vless
-  server: 45.95.96.236
-  port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  network: tcp
-  tls: true
-  udp: true
-  servername: gesmankos.sadiepinki.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-  flow: xtls-rprx-vision
-- name: 🇦🇪AE-configs
+- name: '🇦🇪AE-configs #14'
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: c1531de5-1fde-4a15-b413-5e4456a16337
+  uuid: 0e83e0b6-cefa-4964-a8cf-2b43154cee01
   network: tcp
   tls: true
   udp: true
@@ -208,11 +1356,25 @@ proxies:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #2'
+- name: '🇺🇸US-configs #29'
+  type: vless
+  server: 172.235.38.85
+  port: 42942
+  uuid: bca46025-bf43-40c0-895b-054a6fbcfd32
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.tesla.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: JmkfJoDWpAqt6gj4cbc4_cwItsdryMlV7joAGfNTKQU
+    short-id: a56d7d8da977f860
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #15'
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: f3b97a20-f820-4966-bc70-6bd57cdc95f2
+  uuid: 32088840-4c1e-44af-958f-b7b552aeb919
   network: tcp
   tls: true
   udp: true
@@ -222,67 +1384,66 @@ proxies:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #2'
+- name: '🇩🇪DE-configs #9'
   type: vless
-  server: 130.12.242.106
+  server: 34.185.172.52
   port: 443
-  uuid: bc058e69-0444-4c7b-98da-bd67f0b143da
+  uuid: 3255d065-119c-4103-a422-ea9d301b0707
   network: tcp
   tls: true
   udp: true
-  servername: deepl.com
+  servername: www.cloudflare.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  flow: xtls-rprx-vision
-- name: 🇸🇬SG-configs
+    public-key: -XH2d9x4wRi--KvR6XTcZW9HXbikI2_262zfYDr1uFw
+    short-id: 690ec9207866c84e
+- name: '🇧🇬BG-configs #2'
   type: vless
-  server: 46.137.202.178
-  port: 12512
-  uuid: 2a6c617d-98e4-49c3-95ab-76f02fcf0150
+  server: 94.156.154.65
+  port: 7443
+  uuid: cb15d1b0-e48b-4c4c-b98a-fa1103aa3723
   network: tcp
   tls: true
   udp: true
-  servername: www.intel.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA
-    short-id: e692a8250d2e2fd0
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #4'
-  type: vless
-  server: 103.109.234.246
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: de10.delivery-4f1c.com
+  servername: www.samsung.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
-    short-id: 59eee550a1014198
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
   flow: xtls-rprx-vision
-- name: 🇨🇦CA-configs
+- name: '🇩🇪DE-configs #10'
   type: vless
-  server: 51.79.29.205
+  server: 169.40.42.225
   port: 443
-  uuid: 2cb2774b-475b-4759-f6f2-18b70e8501f8
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   network: tcp
   tls: true
   udp: true
-  servername: play-apps-features.googleusercontent.com
+  servername: yahoo.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #30'
+  type: vless
+  server: 132.243.28.215
+  port: 443
+  uuid: fc47db0c-c6f2-4665-bdb2-8f717822ce9d
+  network: tcp
+  tls: true
+  udp: true
+  servername: 98fqyhewf8qe9hy.datahubfiles.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: GCANC7DeRAKLmXKEWXd2bkRwKl1XTyuWy1ObBB0AKC0
-    short-id: ''
+    public-key: h7QhnEwH563RIEWqW9thv09tmOjD3f5cV1kedJduL3A
+    short-id: c2466b9944ea3d2f
   flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #4'
+- name: '🇺🇸US-configs #31'
   type: vless
   server: 31.58.50.200
   port: 8443
-  uuid: 880e605a-082b-47d5-8a37-cac00309ec7c
+  uuid: 0165ef77-68d5-468e-922b-43f5395287bb
   network: tcp
   tls: true
   udp: true
@@ -292,19 +1453,158 @@ proxies:
     public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
     short-id: ''
   flow: xtls-rprx-vision
-- name: 'Domain-configs #2'
+- name: '🇺🇸US-configs #32'
   type: vless
-  server: pl1.chromevpn.cc
-  port: 8444
-  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
+  server: 31.58.50.200
+  port: 8443
+  uuid: 77d4bb66-82c8-4511-98e0-44edb2da8978
   network: tcp
   tls: true
   udp: true
-  servername: pl1.chromevpn.cc
-  client-fingerprint: qq
+  servername: tradingview.com
+  client-fingerprint: firefox
   reality-opts:
-    public-key: ltHl15Wq549qC2JdAtesy-POs6Hwm_BbrlzuwDkWoUk
-    short-id: 93f5b0d1a8ce6247
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #33'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 60ed7378-3d79-45af-a13f-2983dd2b524d
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #34'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 99ee81aa-405a-40c5-9bf7-f446fcedb25d
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #35'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 72109745-9dbe-42a6-93c7-8b6eeb7aaed3
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #36'
+  type: vless
+  server: 195.123.240.65
+  port: 443
+  uuid: ce18d0eb-5c71-41f9-96e5-1632e22456e4
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE
+    short-id: 19296c9f1bf9c7b1
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #37'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: c50a60fe-07eb-4950-85ea-ee9c15b32c7d
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #16'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 51eb44a1-235d-4fcc-9fb1-b4a644746a9e
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇹🇼TW-configs #2'
+  type: vless
+  server: 118.167.206.152
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  network: tcp
+  tls: true
+  udp: true
+  servername: addons.mozilla.org
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+    short-id: ''
+- name: '🇫🇮FI-configs #3'
+  type: vless
+  server: 31.76.245.63
+  port: 443
+  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
+  network: tcp
+  tls: true
+  udp: true
+  servername: dzen.ru
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
+    short-id: a1b2c3d4e5f67890
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #38'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 7629f461-49cd-4ada-91d8-ce219466395e
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #39'
+  type: vless
+  server: 45.149.172.80
+  port: 443
+  uuid: 21a4d978-2c0b-4b26-8ac9-37d54e3a4ab1
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FKTaFzF4zfAqXBdDQHwSVl_XyNcC3T17s_FqhHyZchg
+    short-id: fb9456392070128e
   flow: xtls-rprx-vision
 - name: '🇸🇬SG-configs #2'
   type: vless
@@ -319,1009 +1619,7 @@ proxies:
   reality-opts:
     public-key: VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw
     short-id: 87829de0e2bb82cb
-- name: '🇺🇸US-configs #5'
-  type: vless
-  server: 31.76.39.141
-  port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  network: tcp
-  tls: true
-  udp: true
-  servername: gb.superbuba.top
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
-    short-id: 4fa44664f6a566d3
-  flow: xtls-rprx-vision
-- name: 🇬🇧GB-configs
-  type: vless
-  server: 107.181.151.241
-  port: 443
-  uuid: 455cfdc6-9abf-4e40-863f-5ff6cc63457c
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 18e4d2d21241
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #2'
-  type: vless
-  server: 107.181.151.241
-  port: 443
-  uuid: 106d20f6-d70a-40e2-b69b-8e82baf8d117
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 60500a63ad12
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #6'
-  type: vless
-  server: 172.233.139.46
-  port: 53734
-  uuid: 56a1b253-cde4-490f-9c5e-09a523882bdd
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU
-    short-id: a56d7d8da977f860
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #7'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 94648954-d422-4854-9573-28e061319b2b
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #8'
-  type: vless
-  server: 45.141.131.16
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: de5.edge-9d7c.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
-    short-id: 9d84de9d9f7b85e9
-  flow: xtls-rprx-vision
-- name: 🇯🇵JP-configs
-  type: vless
-  server: 3.114.220.22
-  port: 18007
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #9'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 4a64b0c2-de7e-4e32-b931-247be6dc4488
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #3'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: b375bdc2-5a7d-4074-898e-030ad75e3503
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #4'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: af674f24-71f7-4683-9e8e-370ec70cffc4
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇦🇹AT-configs
-  type: vless
-  server: 152.53.1.40
-  port: 443
-  uuid: edde565e-41f5-400e-84ea-7b87a3e84488
-  network: tcp
-  tls: true
-  udp: true
-  servername: at.quattro-tech.ru
-  client-fingerprint: qq
-  reality-opts:
-    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
-    short-id: 43dcff53849b81e6
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #10'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: dbaa08bd-7d18-4775-b44f-bab649be4815
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #11'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 80cb54cd-4d93-4397-b159-97d5c9fe0807
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #12'
-  type: vless
-  server: 157.254.174.14
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: us.cache-4d8a.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw
-    short-id: 8319913f2e5f5711
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #13'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 41a463f0-8c2d-4090-8456-e3278cab8fa2
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇸🇦SA-configs
-  type: vless
-  server: 213.165.56.169
-  port: 443
-  uuid: 974f2c7e-a292-4207-8315-ef4151bdca41
-  network: tcp
-  tls: true
-  udp: true
-  servername: fl-api.bachidze.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: LMcNHcOzPISa2fmZWt2JraL6_a_IObpS2znQW70gyDo
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #5'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: ab3a17ae-4d4f-45ff-a05f-4d27b7f97838
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #3'
-  type: vless
-  server: de10.delivery-4f1c.com
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: de10.delivery-4f1c.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
-    short-id: 59eee550a1014198
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #4'
-  type: vless
-  server: us.cache-4d8a.com
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: us.cache-4d8a.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: S6t9-gOX2mxWKNGvGSJ8NxDdlJy78d4gN2-wv2d0hFw
-    short-id: 8319913f2e5f5711
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #14'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 93a8f0b3-4c97-4d14-999c-c207a55b70b0
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇦🇺AU-configs
-  type: vless
-  server: 34.87.244.111
-  port: 443
-  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-    short-id: d725f0dd8cce210f
-- name: '🇦🇪AE-configs #6'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: a6dca797-9803-4f2c-ae45-e6bd8d0e9842
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #15'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: d685c66b-0c11-4989-95da-a28134a776e3
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇮🇳IN-configs
-  type: vless
-  server: 34.47.245.203
-  port: 443
-  uuid: 3fed34dc-2fe6-4fe0-86e7-a80213f9b7cc
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY
-    short-id: 50440423703c945f
-- name: '🇩🇪DE-configs #5'
-  type: vless
-  server: 169.40.42.168
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: 🇫🇷FR-configs
-  type: vless
-  server: 195.154.118.134
-  port: 443
-  uuid: 3c48b5f5-7766-4896-874e-b3ba1860e83a
-  network: tcp
-  tls: true
-  udp: true
-  servername: w-mebel.pro
-  client-fingerprint: random
-  reality-opts:
-    public-key: YhT24GkuI1r7Fwo8pxIYH3CmTtbRlYs5X7fWtYp3vTY
-    short-id: 05f4f85fdc6c1379
-  flow: xtls-rprx-vision
-- name: '🇨🇦CA-configs #2'
-  type: vless
-  server: 130.107.73.148
-  port: 41373
-  uuid: a71c8954-66a8-4321-bedb-2336230d81ce
-  network: tcp
-  tls: true
-  udp: true
-  servername: google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: m0GsZOAwvAJEaqh9aH6qfOmBKo0KW0jY_tJEC6KaDEU
-    short-id: 0e
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #16'
-  type: vless
-  server: 2.26.173.44
-  port: 443
-  uuid: 974f2c7e-a292-4207-8315-ef4151bdca41
-  network: tcp
-  tls: true
-  udp: true
-  servername: poland.travel
-  client-fingerprint: safari
-  reality-opts:
-    public-key: TIKEWdxQBblFGWMQmQWserNef8P1rqJCfCLLi-KB32s
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #7'
-  type: vless
-  server: 31.56.189.27
-  port: 8765
-  uuid: df9f5aca-eda0-428f-a752-e53866153d12
-  network: tcp
-  tls: true
-  udp: true
-  servername: srv-21bac9.vless.monster
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: M08l5tDmJUYELykZCNYQyFgtR9Zc-A4ZGlUSLcUeS2c
-    short-id: 1bcc9177f3124b25
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #8'
-  type: vless
-  server: 146.70.102.82
-  port: 443
-  uuid: 31fd2fde-ca69-450e-8c03-eaad819b06b9
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.datadoghq.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k
-    short-id: 002fb4ec7b3088cc
-  flow: xtls-rprx-vision
-- name: 🇹🇷TR-configs
-  type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.apple.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-    short-id: 9e419c0759b54d6f
-- name: 'Domain-configs #5'
-  type: vless
-  server: hyhhuh.mervi.icu
-  port: 443
-  uuid: 9bbd487f-8f84-4ad7-b897-681c3f7d95dc
-  network: tcp
-  tls: true
-  udp: true
-  servername: hyhhuh.mervi.icu
-  client-fingerprint: random
-  reality-opts:
-    public-key: wl-pbwMLXrvJkR4yo1JNBU7oiewyuQ-t7jxiS6Kz4D8
-    short-id: 2997575f36da5a09
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #9'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 71470f80-ee36-47e0-8089-0987657ea5d4
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #6'
-  type: vless
-  server: staging.lastilhame.monster
-  port: 443
-  uuid: 594d466e-8ac3-4fda-b1d1-eeb817853518
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 5a018643df03
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #3'
-  type: vless
-  server: 87.239.249.137
-  port: 443
-  uuid: 67eb6b17-7797-4ded-bf52-423c4c5f6cbd
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.foxsports.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY
-    short-id: 91af08b1ce1f
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #4'
-  type: vless
-  server: 107.181.151.39
-  port: 443
-  uuid: 68cf8d29-5aa0-44b3-88a9-f1a576b6e84c
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 73a9e631a09b
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #5'
-  type: vless
-  server: 107.181.151.39
-  port: 443
-  uuid: 13aef2e0-b3fb-4322-a0e9-c10b908ce6b5
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.techradar.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 87f895f23064
-  flow: xtls-rprx-vision
-- name: '🇨🇦CA-configs #3'
-  type: vless
-  server: 51.79.29.205
-  port: 10103
-  uuid: f6c29358-4b06-445a-bf01-360a418aca1e
-  network: tcp
-  tls: true
-  udp: true
-  servername: play-apps-features.googleusercontent.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: BEbRvaOBf0Vm-HovuysfKge6jHMgK4AGl4U0kA7w8QI
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇫🇷FR-configs #2'
-  type: vless
-  server: 145.223.68.58
-  port: 443
-  uuid: edb50d20-2d3e-4c1e-8a75-a17168a89aa5
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: qc2DcqT9zPPZr6ePZ7ukxACWrYhRNIBjDIjCK7veyQg
-    short-id: a44ff7d2e80213c2
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #7'
-  type: vless
-  server: est1313.ggisopi.su
-  port: 443
-  uuid: d0f0a880-0df1-48c9-bdf1-5669fb9483ce
-  network: tcp
-  tls: true
-  udp: true
-  servername: est1313.ggisopi.su
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #6'
-  type: vless
-  server: 159.69.103.251
-  port: 2053
-  uuid: 6cf6bb53-9785-49d5-9d39-53b4de45ff84
-  network: tcp
-  tls: true
-  udp: true
-  servername: 91.98.44.116
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: W2V2xk0G3_neYDnTLNhaYxovp_ThMXDw68uweM12W2Y
-    short-id: 5ecb8c5a753a36fc
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #7'
-  type: vless
-  server: 169.40.42.15
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #10'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 39c11784-818b-4e2c-8804-8181abc9c849
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇧🇬BG-configs
-  type: vless
-  server: 94.156.154.65
-  port: 7443
-  uuid: cb15d1b0-e48b-4c4c-b98a-fa1103aa3723
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.samsung.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
-    short-id: d2061bb1
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #6'
-  type: vless
-  server: 138.124.180.137
-  port: 443
-  uuid: 5234b2b7-5e07-422c-8159-d62a676c00c6
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c
-    short-id: 33acba1b
-  flow: xtls-rprx-vision
-- name: 🇹🇼TW-configs
-  type: vless
-  server: 35.201.163.218
-  port: 30837
-  uuid: 85a6bd94-83a9-4e80-849f-c06d7011d1a4
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.sony.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo
-    short-id: 97101ba788915e5a
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #11'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 70bd60b1-f399-4df4-ad32-9adc40ae5f2c
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #17'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 865329ac-d8a1-40b6-8199-fee4661bf2ad
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #3'
-  type: vless
-  server: 87.199.205.28
-  port: 443
-  uuid: 501a2da5-cb22-4a3f-915e-e3b821d1d62d
-  network: tcp
-  tls: true
-  udp: true
-  servername: vkvd754.okcdn.ru
-  client-fingerprint: qq
-  reality-opts:
-    public-key: W-9zyiOq287RtXVTZlTFbSDJ0Mx8joyBLJoA7ZE7eBw
-    short-id: ef1d3554c652a436
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #12'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 2202f333-f8d6-4e13-a6c7-0b437e42f5e3
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #8'
-  type: vless
-  server: 169.40.42.74
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #9'
-  type: vless
-  server: 169.40.42.95
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #13'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: b01e6de1-67df-4a56-a3e3-c6eb1a140caf
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #18'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: fbe3ec44-4c6e-49ff-9e1a-cc992a4e0bec
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #14'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: e177b819-cfc2-4c59-bd37-e9cf15bc3bc3
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇸🇪SE-configs
-  type: vless
-  server: 213.21.246.124
-  port: 443
-  uuid: d929e993-8053-488a-8a22-0ae09f706a2e
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.goo.gl
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 3Qh9roHIRJtLEM-gV_hudQrY6wPK_Dc3ePVtWLGqYho
-    short-id: ef7db38f625526f5
-- name: '🇺🇸US-configs #19'
-  type: vless
-  server: 144.31.93.231
-  port: 443
-  uuid: 3710fc0f-5f0c-4b9c-a5d4-40cb419e943a
-  network: tcp
-  tls: true
-  udp: true
-  servername: yandex.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: WKN5yaRN05O2WdCURXRmS-yBVYaabaFWOvGudX6ohWc
-    short-id: b97e7d4582b6fa6e
-  flow: xtls-rprx-vision
-- name: 🇭🇰HK-configs
-  type: vless
-  server: 47.239.6.251
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  network: tcp
-  tls: true
-  udp: true
-  servername: tesla.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: af1bdd293097b664
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #4'
-  type: vless
-  server: 89.124.103.66
-  port: 443
-  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.booking.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: Rp0WaupRP9LtJ-dd4vjKwuvSzqo_ZqIZPZWDEbSoIAo
-    short-id: 98096455d963bdbb
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #7'
-  type: vless
-  server: 107.181.151.39
-  port: 443
-  uuid: 6dfc9149-1ff9-41c3-8563-0ef284381731
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 1374bddeb25d
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #20'
-  type: vless
-  server: 13.143.166.25
-  port: 443
-  uuid: dcf8e133-09a2-4884-abf9-80356bb334ac
-  network: tcp
-  tls: true
-  udp: true
-  servername: ivory875.filebeam.website
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: xcTXD3of3Yt5hHdIwYGZ1LjMBgiL6sqj5J33J4U4ozM
-    short-id: a7c31f92
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #15'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: ce55737c-243b-497f-9d9a-38700f327894
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #21'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 813a5411-08ac-4346-888a-992f35acbf89
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇫🇮FI-configs
-  type: vless
-  server: 37.143.129.244
-  port: 443
-  uuid: 0e6de971-69e8-4536-b06d-8b6eae57021b
-  network: tcp
-  tls: true
-  udp: true
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 5HArul2NDXfFUxijHj1xiPCfH-77zuuRxylT1vWIvUY
-    short-id: 48fd192dc4e46bc0
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #8'
-  type: vless
-  server: de5.edge-9d7c.com
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: de5.edge-9d7c.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
-    short-id: 9d84de9d9f7b85e9
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #5'
-  type: vless
-  server: 51.158.206.25
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #16'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 0817a3bb-c8fb-4ddf-a05e-321565b39cd8
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇫🇷FR-configs #3'
-  type: vless
-  server: 34.155.10.226
-  port: 443
-  uuid: d619964d-26d6-452d-9860-6f058f03ba8e
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk
-    short-id: ae682368818bd6c5
-- name: '🇫🇮FI-configs #2'
-  type: vless
-  server: 95.217.24.119
-  port: 2083
-  uuid: d78de562-872e-43dd-be48-e9d7b06c87a3
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: tADYkZWWksM_mCqqwlRHCciSCXnP3JMYrPi5eoRHh2s
-    short-id: d059fb98048c5318
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #17'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: a5e01e69-d31d-4867-8433-bd77a82970f6
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #22'
-  type: vless
-  server: 34.19.91.203
-  port: 443
-  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
-    short-id: bd4aa541e5306ba2
-- name: '🇺🇸US-configs #23'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 11cf4be2-8e22-410b-ac9f-c389d2b2e1cd
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #24'
+- name: '🇺🇸US-configs #40'
   type: vless
   server: 31.58.50.200
   port: 8443
@@ -1335,134 +1633,51 @@ proxies:
     public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
     short-id: ''
   flow: xtls-rprx-vision
-- name: 'Domain-configs #9'
+- name: '🇺🇸US-configs #41'
   type: vless
-  server: prep.wwwinternetvideo.click
-  port: 443
-  uuid: 1c332eae-7e02-4acd-996d-4eb3e652401c
+  server: 31.58.50.200
+  port: 8443
+  uuid: 757e753e-85e2-482e-a29b-852ad193bc5f
   network: tcp
   tls: true
   udp: true
-  servername: yandex.ru
-  client-fingerprint: chrome
+  servername: tradingview.com
+  client-fingerprint: firefox
   reality-opts:
-    public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
-    short-id: bbe46bd8f6b96839
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
   flow: xtls-rprx-vision
-- name: '🇯🇵JP-configs #2'
+- name: '🇺🇸US-configs #42'
   type: vless
-  server: 47.74.3.200
-  port: 443
-  uuid: 7fb42fab-ea8a-4f0f-af9e-55df8ae6cb1d
+  server: 172.233.139.46
+  port: 53734
+  uuid: 56a1b253-cde4-490f-9c5e-09a523882bdd
   network: tcp
   tls: true
   udp: true
-  servername: www.logitech.com
-  client-fingerprint: chrome
+  servername: www.tesla.com
+  client-fingerprint: firefox
   reality-opts:
-    public-key: kb1uhDsBcfsCD6acCuFcVERW29dscNGIjKPd67NArVk
-    short-id: ab3b914f0c9d9de5
+    public-key: JAG5rl6KEt7KAV0y8Z2x6orWHymCXRSX49SkEnEftWU
+    short-id: a56d7d8da977f860
   flow: xtls-rprx-vision
-- name: 'Domain-configs #10'
+- name: '🇯🇵JP-configs #4'
   type: vless
-  server: server.slavkiti.monster
+  server: 45.39.108.109
   port: 443
-  uuid: ff40696b-06d6-443b-9481-8d01eddd13e1
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.foxsports.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: d659da01fb94
-  flow: xtls-rprx-vision
-- name: 🇨🇾CY-configs
-  type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  network: tcp
-  tls: true
-  udp: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-    short-id: a8ae
-- name: '🇳🇱NL-configs #6'
-  type: vless
-  server: 51.158.206.93
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #8'
-  type: vless
-  server: 107.181.151.39
-  port: 443
-  uuid: b60cab55-e7a1-413d-a297-ddd7bad3fb62
+  uuid: d806a58b-33aa-42e0-b170-395e49c16b37
   network: tcp
   tls: true
   udp: true
   servername: www.microsoft.com
   client-fingerprint: firefox
   reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: bbcab8fa80a3
+    public-key: Y0noOXC8qHmbM0GmDpj-9BBwKSOtHs-uMbNfKU050GQ
+    short-id: b558b9305a0b
   flow: xtls-rprx-vision
-- name: '🇨🇾CY-configs #2'
+- name: '🇩🇪DE-configs #11'
   type: vless
-  server: 2.56.124.241
-  port: 443
-  uuid: eec2f6a7-c10f-43b0-b133-61f9bf9bbc27
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: bPbAdn6ogLbiv5cRe5d12EL7FhooAIVrC3-fg90P-Bw
-    short-id: 72104d27a0f5f62e
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #11'
-  type: vless
-  server: hk3n.wxgqlfx.vip
-  port: 35193
-  uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE
-    short-id: e8daed2d
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #25'
-  type: vless
-  server: 46.28.67.55
-  port: 443
-  uuid: d1a6a033-fdbd-46a6-a177-3370ba042b9f
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
-    short-id: d06d78e974491b6e
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #10'
-  type: vless
-  server: 169.40.42.232
+  server: 169.40.42.223
   port: 443
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   network: tcp
@@ -1474,7 +1689,21 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #26'
+- name: '🇦🇪AE-configs #17'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 09c8f099-a8a2-4147-8f81-4a28a67636f3
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #43'
   type: vless
   server: 31.76.7.154
   port: 7443
@@ -1488,136 +1717,11 @@ proxies:
     public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
     short-id: d2061bb1
   flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #18'
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
-  network: tcp
-  tls: true
-  udp: true
-  servername: maps.apple.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-    short-id: a1b2c3d4
-- name: '🇬🇧GB-configs #9'
-  type: vless
-  server: 82.39.171.142
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #12'
-  type: vless
-  server: gesmankos.sadiepinki.com
-  port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  network: tcp
-  tls: true
-  udp: true
-  servername: gesmankos.sadiepinki.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: 4fa44664f6a566d3
-  flow: xtls-rprx-vision
-- name: '🇨🇾CY-configs #3'
-  type: vless
-  server: 5.253.30.99
-  port: 40443
-  uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8
-  network: tcp
-  tls: true
-  udp: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-    short-id: 88b6
-  flow: xtls-rprx-vision
-- name: 🇵🇱PL-configs
-  type: vless
-  server: 82.118.22.161
-  port: 443
-  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
-    short-id: fa3ea655619a3e78
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #27'
-  type: vless
-  server: 162.35.96.20
-  port: 443
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  network: tcp
-  tls: true
-  udp: true
-  servername: sheetpeek.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo
-    short-id: 84be686ea1d16478
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #11'
-  type: vless
-  server: 169.40.42.235
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #28'
-  type: vless
-  server: 5.34.178.120
-  port: 443
-  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
-    short-id: 55ab5559e3a6d10a
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #13'
-  type: vless
-  server: hydra.yokkastars.com
-  port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
-  network: tcp
-  tls: true
-  udp: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-    short-id: 88b6
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #29'
+- name: '🇺🇸US-configs #44'
   type: vless
   server: 31.58.50.200
   port: 8443
-  uuid: 315adcfd-5eab-4041-b876-f9cc8e2aa6c2
+  uuid: 6038e39a-d05e-483d-b853-a176707d4f69
   network: tcp
   tls: true
   udp: true
@@ -1627,231 +1731,7 @@ proxies:
     public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #30'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: a9dae5b2-ac94-417f-b3dd-882a3d7a6a85
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #19'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: e16ab346-73be-4fc6-8b6f-511c455b8504
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #7'
-  type: vless
-  server: 152.70.58.201
-  port: 443
-  uuid: 8892e34a-339b-4526-b88d-cf68c516231c
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.nvidia.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28
-    short-id: 52c723e0fad49689
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #31'
-  type: vless
-  server: 31.77.161.15
-  port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-  network: tcp
-  tls: true
-  udp: true
-  servername: nvidia.com
-  client-fingerprint: safari
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #20'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 93a8f0b3-4c97-4d14-999c-c207a55b70b0
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #32'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 72d995a9-df53-4e8e-a8b6-e83f3a7d08ea
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #14'
-  type: vless
-  server: us05.shifor01.life
-  port: 443
-  uuid: 11f21602-47aa-42e2-9149-69120f2e6df6
-  network: tcp
-  tls: true
-  udp: true
-  servername: us05.shifor01.life
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 36sTeaLdaAjQQxxzh492XihoPi2YxmttQyncmLuxYHE
-    short-id: 169fc2df88419465
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #12'
-  type: vless
-  server: 169.40.42.231
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #15'
-  type: vless
-  server: server.slavkiti.monster
-  port: 443
-  uuid: d84c13b2-c2b9-4a7c-838f-05ac09ee422e
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.mozilla.org
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 2a2ce9e42980
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #8'
-  type: vless
-  server: 51.158.206.96
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #9'
-  type: vless
-  server: 94.156.79.93
-  port: 443
-  uuid: 1a5e7720-abf3-4b9b-bc9b-9a900a04b434
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.microsoft.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: _0fpFqEEuCso3B8K7AAcMjctwG_xfCxO2PdKzGd_-hg
-    short-id: f129dcdbf64f
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #33'
-  type: vless
-  server: 23.191.200.206
-  port: 443
-  uuid: d32b9753-8910-4bd6-8761-5bbd1bc1bb3e
-  network: tcp
-  tls: true
-  udp: true
-  servername: dl.google.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #21'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 1e158ab2-d28a-41c8-b31d-8ea2d8706fe7
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #22'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 431acd7d-ef6c-4d2b-b471-bcdddca8050c
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #23'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 67018597-36a2-40f2-aa72-a253d0ad438b
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #34'
-  type: vless
-  server: 150.241.101.80
-  port: 8443
-  uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
-  network: tcp
-  tls: true
-  udp: true
-  servername: yandex.net
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: 6ba85179e30d4fc2
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #35'
+- name: '🇺🇸US-configs #45'
   type: vless
   server: 31.58.50.200
   port: 8443
@@ -1865,11 +1745,11 @@ proxies:
     public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #24'
+- name: '🇦🇪AE-configs #18'
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: 4e32f662-01da-4dad-bf33-ee17f578d118
+  uuid: a6dca797-9803-4f2c-ae45-e6bd8d0e9842
   network: tcp
   tls: true
   udp: true
@@ -1879,249 +1759,94 @@ proxies:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #36'
+- name: '🇦🇪AE-configs #19'
   type: vless
-  server: 31.58.50.200
+  server: 31.58.181.88
   port: 8443
-  uuid: cab0b9e0-3df1-4624-8c42-a9f140d778f2
+  uuid: 39c11784-818b-4e2c-8804-8181abc9c849
   network: tcp
   tls: true
   udp: true
   servername: tradingview.com
   client-fingerprint: firefox
   reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
     short-id: ''
   flow: xtls-rprx-vision
-- name: 'Domain-configs #16'
+- name: '🇦🇪AE-configs #20'
   type: vless
-  server: server.slavkiti.monster
-  port: 443
-  uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
+  server: 31.58.181.88
+  port: 8443
+  uuid: 1423f399-74d3-4d99-90b9-bc7cae1af706
   network: tcp
   tls: true
   udp: true
-  servername: www.tradingview.com
-  client-fingerprint: chrome
+  servername: tradingview.com
+  client-fingerprint: firefox
   reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: ee1716767f9b
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
   flow: xtls-rprx-vision
-- name: 🇮🇹IT-configs
+- name: '🇦🇪AE-configs #21'
   type: vless
-  server: 82.118.16.187
+  server: 31.58.181.88
+  port: 8443
+  uuid: 431acd7d-ef6c-4d2b-b471-bcdddca8050c
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #46'
+  type: vless
+  server: 5.78.28.48
   port: 443
-  uuid: dc2259c4-388e-4285-ba18-df619b6672b6
+  uuid: b88a54a0-501c-4acf-930b-305354452f4e
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.yahoo.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: XB7peN-a_9j_WGBHvs3DIMDlsOzJAOehGnziOE9OvwE
+    short-id: 884dffd8e62a5c48
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #22'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 1e3b5752-e720-4347-b8e9-384697d0ce38
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇬🇧GB-configs #4'
+  type: vless
+  server: 35.189.111.134
+  port: 443
+  uuid: ed492b33-c6b4-463f-8359-3634b0d44251
   network: tcp
   tls: true
   udp: true
   servername: www.cloudflare.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU
-    short-id: cd6065902eea7a02
-  flow: xtls-rprx-vision
-- name: '🇸🇬SG-configs #3'
-  type: vless
-  server: 206.206.76.75
-  port: 443
-  uuid: 1e3d3634-36ac-43ac-a439-9665d885238f
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: TqIFzUEEI1pIOR8BEpkNKEXcJ6cPfE5EzHb5joIivig
-    short-id: 9930177816ab09da
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #17'
-  type: vless
-  server: ww13.levikogjgfdd.ir
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #37'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 06b7bb5f-c1fe-4c33-a420-cf0a5c94d3cd
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #10'
-  type: vless
-  server: 172.239.239.53
-  port: 22746
-  uuid: a4846a6c-163f-4b12-a99f-378d814e5e09
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.intel.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU
-    short-id: d9fd4fa80238cd05
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #11'
-  type: vless
-  server: 51.158.206.12
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #18'
-  type: vless
-  server: xray1-direct-mci1-fs-ce.freesocks.work
-  port: 443
-  uuid: d32b9753-8910-4bd6-8761-5bbd1bc1bb3e
-  network: tcp
-  tls: true
-  udp: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 7j3hmlHrEDk3Kjx-dFG3E3jf0c6PZF45trIPFsuKWmI
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #25'
+    public-key: matDwR2fEV41IhLs23SkP9dS6d6qiaRKS4ndb3uR1lk
+    short-id: 89ea42ae375d4933
+- name: '🇦🇪AE-configs #23'
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: d0da19f1-fb05-488e-99c2-262389b3537b
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #38'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: b77411ca-a4f1-4c3a-aadb-b4d9320a6dc1
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #10'
-  type: vless
-  server: 107.181.151.39
-  port: 443
-  uuid: d84c13b2-c2b9-4a7c-838f-05ac09ee422e
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.mozilla.org
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 2a2ce9e42980
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #19'
-  type: vless
-  server: nor.accessgate.link
-  port: 2096
-  uuid: 38eb3e71-4349-4bd6-9baf-9740e1896495
-  network: tcp
-  tls: true
-  udp: true
-  servername: unpkg.com
-  client-fingerprint: edge
-  reality-opts:
-    public-key: CQBmePak1QN5SsSmK_KTOSLjsCTaiaM4Jtxt7jLheko
-    short-id: b0d8c9a285c70f6f
-  flow: xtls-rprx-vision
-- name: '🇨🇦CA-configs #4'
-  type: vless
-  server: 66.70.179.124
-  port: 443
-  uuid: c8f9e08d-7d07-4059-9f71-0b014b9e0ec7
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.apple.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: feWlxnxySxB9B9HiuC4NwoTe_6slRqaW-EULPN0yxjY
-    short-id: af7e79b5
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #39'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 4e32f662-01da-4dad-bf33-ee17f578d118
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #11'
-  type: vless
-  server: 107.181.151.241
-  port: 443
-  uuid: 2f6e2b17-4d5e-4a12-8979-f53fdd347580
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.mozilla.org
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 5c8a8e6c615b
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #40'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: c50a60fe-07eb-4950-85ea-ee9c15b32c7d
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #26'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: a85d3eb0-c71e-4086-8139-6ac7c9120389
+  uuid: f0394424-db02-4e65-9685-d1c0f54ef5c2
   network: tcp
   tls: true
   udp: true
@@ -2131,7 +1856,7 @@ proxies:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #41'
+- name: '🇺🇸US-configs #47'
   type: vless
   server: 31.58.50.200
   port: 8443
@@ -2145,51 +1870,9 @@ proxies:
     public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #13'
+- name: '🇩🇪DE-configs #12'
   type: vless
-  server: 169.40.42.225
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #20'
-  type: vless
-  server: sg-1.gsafevpnapi.com
-  port: 20270
-  uuid: 3da32b09-10e5-4ef9-b422-2e476dd72d87
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: q78tZmuaXQTsrrjZtjjRDtoni6tzN-HhXcAY-iT5zF0
-    short-id: fc13d6208ebbae16
-  flow: xtls-rprx-vision
-- name: '🇸🇪SE-configs #2'
-  type: vless
-  server: 94.183.224.45
-  port: 443
-  uuid: d72f05b0-b182-4783-a6f2-21cecc7d841a
-  network: tcp
-  tls: true
-  udp: true
-  servername: dzen.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
-    short-id: a1b2c3d4e5f67890
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #14'
-  type: vless
-  server: 169.40.42.163
+  server: 169.40.42.15
   port: 443
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
   network: tcp
@@ -2201,11 +1884,39 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #27'
+- name: '🇳🇱NL-configs #6'
+  type: vless
+  server: 51.158.206.26
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #7'
+  type: vless
+  server: nl3.freekeysh110.online
+  port: 443
+  uuid: f679bada-55ac-45e7-94f0-b28b4b70df2b
+  network: tcp
+  tls: true
+  udp: true
+  servername: nl3.freekeysh110.online
+  client-fingerprint: edge
+  reality-opts:
+    public-key: zVEDSKwQEIM6xRD7YEhJakteNI2xPK3xhhKulDo_vWg
+    short-id: b664d93e9d7a04f1
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #24'
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: 98983e4e-31df-4061-bc86-1d6ade4b551b
+  uuid: ce57910d-b7a9-4eaa-9a94-a1dda0d08026
   network: tcp
   tls: true
   udp: true
@@ -2215,11 +1926,25 @@ proxies:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #28'
+- name: '🇺🇸US-configs #48'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: a7ab9b00-42a1-4943-abba-096590d1edd0
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #25'
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: 86562a3a-b318-4e10-a78b-bd8906d013ad
+  uuid: 67018597-36a2-40f2-aa72-a253d0ad438b
   network: tcp
   tls: true
   udp: true
@@ -2228,6 +1953,75 @@ proxies:
   reality-opts:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
     short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇸🇬SG-configs #3'
+  type: vless
+  server: 3.0.111.82
+  port: 17623
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #26'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 3e930211-9887-4ec3-969a-c2e7a8837da2
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #27'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: e16ab346-73be-4fc6-8b6f-511c455b8504
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 🇦🇺AU-configs
+  type: vless
+  server: 34.87.229.148
+  port: 443
+  uuid: 4f865f35-cf47-4e7f-a7e6-8882511a1b36
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4
+    short-id: 8a7d5e0248cdb1b1
+- name: 'Domain-configs #8'
+  type: vless
+  server: staging.lastilhame.monster
+  port: 443
+  uuid: 106d20f6-d70a-40e2-b69b-8e82baf8d117
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 60500a63ad12
   flow: xtls-rprx-vision
 - name: 🇷🇺RU-configs
   type: vless
@@ -2243,65 +2037,65 @@ proxies:
     public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
     short-id: 123abcdf
   flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #42'
+- name: '🇬🇧GB-configs #5'
   type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 62d2db25-dd18-4427-b753-ff62938207ea
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #43'
-  type: vless
-  server: 172.235.43.210
-  port: 53957
-  uuid: 7ab29f89-6eef-4171-b232-fc4f580ad31b
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.nvidia.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: XUHlbk5VH5z4E2wxZBhlpLZ33qevyQgqU7dheRDgoGQ
-    short-id: 44e82fd7b97b14
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #44'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: fab6b76a-1abe-4f34-8272-77ab121c391c
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #21'
-  type: vless
-  server: staging.lastilhame.monster
+  server: 107.181.151.39
   port: 443
-  uuid: 455cfdc6-9abf-4e40-863f-5ff6cc63457c
+  uuid: 4d017db2-7655-4276-9557-e2ec25b04ee7
   network: tcp
   tls: true
   udp: true
-  servername: www.microsoft.com
+  servername: www.tradingview.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 18e4d2d21241
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: ee1716767f9b
   flow: xtls-rprx-vision
-- name: '🇫🇷FR-configs #4'
+- name: '🇬🇧GB-configs #6'
   type: vless
-  server: 62.210.91.10
+  server: 82.39.171.12
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #13'
+  type: vless
+  server: 169.40.42.104
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #9'
+  type: vless
+  server: ww2.levikogjgfdd.ir
+  port: 443
+  uuid: 9015f0bc-2053-4ca1-9b9b-a018b97b32d2
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.intel.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: SVgtyuD9khylgHuB0treGekxVSHPOS-wPZTNHUf6zj8
+    short-id: 85c86a9863
+  flow: xtls-rprx-vision
+- name: '🇳🇱NL-configs #7'
+  type: vless
+  server: 51.158.206.96
   port: 23576
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   network: tcp
@@ -2313,38 +2107,80 @@ proxies:
     public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
     short-id: '01'
   flow: xtls-rprx-vision
-- name: 'Domain-configs #22'
+- name: '🇨🇦CA-configs #2'
   type: vless
-  server: lt.aether-runet.top
+  server: 51.79.29.205
   port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  uuid: 2cb2774b-475b-4759-f6f2-18b70e8501f8
   network: tcp
   tls: true
   udp: true
-  servername: lt.aether-runet.top
-  client-fingerprint: firefox
+  servername: play-apps-features.googleusercontent.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk
-    short-id: 4fa44664f6a566d3
+    public-key: GCANC7DeRAKLmXKEWXd2bkRwKl1XTyuWy1ObBB0AKC0
+    short-id: ''
   flow: xtls-rprx-vision
-- name: 🇰🇷KR-configs
+- name: '🇳🇱NL-configs #8'
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  server: 185.170.211.194
+  port: 443
+  uuid: 8d2196c0-2ec7-4867-8d66-d5d19bf8fb23
   network: tcp
   tls: true
   udp: true
-  servername: www.cloudflare.com
+  servername: www.samsung.com
   client-fingerprint: firefox
   reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-    short-id: 429499c03d4cc8a0
-- name: '🇺🇸US-configs #45'
+    public-key: eZXyfQzQgQSreAbhKSorx38cgnKmGuSOiQbthBfG5k0
+    short-id: 0e903b415d812c59
+  flow: xtls-rprx-vision
+- name: 🇦🇲AM-configs
+  type: vless
+  server: 77.91.68.70
+  port: 55983
+  uuid: f667a096-5231-4cfb-8759-92bb32473139
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
+    short-id: 0e
+- name: '🇯🇵JP-configs #5'
+  type: vless
+  server: 3.114.220.22
+  port: 19645
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #28'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 86562a3a-b318-4e10-a78b-bd8906d013ad
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #49'
   type: vless
   server: 31.58.50.200
   port: 8443
-  uuid: 60ed7378-3d79-45af-a13f-2983dd2b524d
+  uuid: 2eea435c-8c8f-45e3-8907-956a0c6b0182
   network: tcp
   tls: true
   udp: true
@@ -2358,7 +2194,7 @@ proxies:
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: 21f56e7a-91cb-4639-b68a-0c96edf82805
+  uuid: 7c97de67-9586-4aa5-8adf-ff3ce469149e
   network: tcp
   tls: true
   udp: true
@@ -2367,96 +2203,12 @@ proxies:
   reality-opts:
     public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
     short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #46'
-  type: vless
-  server: 5.78.159.97
-  port: 443
-  uuid: b88a54a0-501c-4acf-930b-305354452f4e
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: XB7peN-a_9j_WGBHvs3DIMDlsOzJAOehGnziOE9OvwE
-    short-id: 884dffd8e62a5c48
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #15'
-  type: vless
-  server: 169.40.42.90
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #47'
-  type: vless
-  server: 195.123.235.177
-  port: 443
-  uuid: 729dd5f2-f5ff-4070-8c10-863eceded0b1
-  network: tcp
-  tls: true
-  udp: true
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI
-    short-id: c85d029f5e8eb393
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #48'
-  type: vless
-  server: 15.204.97.198
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #49'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: e3c57af3-51e0-4e06-bfd8-f05cc37d5069
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 🇬🇹GT-configs
-  type: vless
-  server: 185.47.254.251
-  port: 443
-  uuid: 878fb7f7-fc65-465e-a352-17c7216c6f3d
-  network: tcp
-  tls: true
-  udp: true
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 6-_ZidygR8PRt4gtHlGCAW-PPmjEIm7Wn7MZqJU1z1Q
-    short-id: 6c059ecfddf9b179
   flow: xtls-rprx-vision
 - name: '🇺🇸US-configs #50'
   type: vless
   server: 31.58.50.200
   port: 8443
-  uuid: 4a239f83-479c-4790-a9c7-fe7ddd483a4c
+  uuid: 1837e910-ebd6-4e64-a9ae-7c9779e4d60d
   network: tcp
   tls: true
   udp: true
@@ -2466,439 +2218,49 @@ proxies:
     public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
     short-id: ''
   flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #30'
+- name: '🇯🇵JP-configs #6'
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 010158f4-1a88-4dfa-8420-c770dc1584e1
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇨🇾CY-configs #4'
-  type: vless
-  server: 5.253.28.218
-  port: 40443
-  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
-  network: tcp
-  tls: true
-  udp: true
-  servername: deepl.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
-    short-id: 88b6
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #23'
-  type: vless
-  server: moldova.cdn-europe.org
-  port: 4443
-  uuid: d7c94b82-657a-4bb7-9b24-2ae566669835
-  network: tcp
-  tls: true
-  udp: true
-  servername: moldova.cdn-europe.org
-  client-fingerprint: random
-  reality-opts:
-    public-key: cYwrRCz_hKgT_JE8WywuLE3XOkAEqCTuBiUvXAaEjn8
-    short-id: 694ee64512cfcbef
-  flow: xtls-rprx-vision
-- name: 🇰🇿KZ-configs
-  type: vless
-  server: 109.248.170.119
-  port: 13447
-  uuid: b573cefb-7bc7-4a42-b407-b8b534e66773
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE
-    short-id: '83'
-- name: 'Domain-configs #24'
-  type: vless
-  server: private.netraidly.ru
-  port: 40443
-  uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
-  network: tcp
-  tls: true
-  udp: true
-  servername: deepl.com
-  client-fingerprint: qq
-  reality-opts:
-    public-key: oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE
-    short-id: 2bc0
-  flow: xtls-rprx-vision
-- name: '🇵🇱PL-configs #2'
-  type: vless
-  server: 34.118.70.195
-  port: 443
-  uuid: d518b4e2-bd6e-4d4e-a26e-238154d8d60c
+  server: 154.31.114.248
+  port: 50159
+  uuid: d56624b2-35bb-468c-9b2a-e0b0df7230c1
   network: tcp
   tls: true
   udp: true
   servername: www.cloudflare.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: t_ql5pn5MG1bkVQoteCXoKkSTzUzOs_yXMllmsyiqXY
-    short-id: 7445870d4c2bdcb0
+    public-key: j4QXngGuJkUGwRj4XIrfHRohYYuEfnJlX4cvCE-WklA
+    short-id: 091e1c5db8451757
+  flow: xtls-rprx-vision
 - name: '🇺🇸US-configs #51'
   type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: c0c5a312-f9d3-4eb4-ad6a-0aa2738ac7ab
+  server: 192.3.247.109
+  port: 43580
+  uuid: 25a6a9f3-ad9e-45f2-96e1-be21c9d97789
   network: tcp
   tls: true
   udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
+  servername: apple.com
+  client-fingerprint: chrome
   reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
+    public-key: smOBJ9RB9nUF3SCGBJ5A1O24Dla9YlQY_YSUjmHRW2g
+    short-id: 0123456789abcdef
   flow: xtls-rprx-vision
 - name: '🇺🇸US-configs #52'
   type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: fe5cb9d9-0d9e-41fe-940f-c6c97f7d9157
+  server: 192.3.247.109
+  port: 43578
+  uuid: 25a6a9f3-ad9e-45f2-96e1-be21c9d97789
   network: tcp
   tls: true
   udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #25'
-  type: vless
-  server: srv-21bac9.vless.monster
-  port: 8765
-  uuid: df9f5aca-eda0-428f-a752-e53866153d12
-  network: tcp
-  tls: true
-  udp: true
-  servername: srv-21bac9.vless.monster
+  servername: apple.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: M08l5tDmJUYELykZCNYQyFgtR9Zc-A4ZGlUSLcUeS2c
-    short-id: 1bcc9177f3124b25
+    public-key: c5vigQXEfwPg0fAF6U68xrunhyXzYYfMAvsRQ6Cn2mA
+    short-id: 0123456789abcdef
   flow: xtls-rprx-vision
-- name: 'Domain-configs #26'
-  type: vless
-  server: staging.lastilhame.monster
-  port: 443
-  uuid: aded66f1-de12-4c3c-af9e-a21d6e7d9c96
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.foxsports.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 2a80364e93d9
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #12'
-  type: vless
-  server: 51.158.206.98
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #53'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: c5f99eb2-0712-41a8-84d8-4715f0a8a588
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #54'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 22d5930c-6f96-4b77-8f0a-88faca0c9397
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #55'
-  type: vless
-  server: 138.124.60.146
-  port: 443
-  uuid: bbfd1f68-ec64-452f-8404-9e2bcf1df951
-  network: tcp
-  tls: true
-  udp: true
-  servername: usa.oblaco.bet
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #31'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: e580657d-c9b2-4bff-98c2-e63c5563d4b7
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #56'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 7e3f04d4-0f1a-4163-9955-5ee7c757b277
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #32'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 83045f64-b5df-434d-a81a-8bc66bdc5cab
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇵🇱PL-configs #3'
-  type: vless
-  server: 2.59.253.251
-  port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-  network: tcp
-  tls: true
-  udp: true
-  servername: nvidia.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-  flow: xtls-rprx-vision
-- name: 🇱🇹LT-configs
-  type: vless
-  server: 84.32.215.94
-  port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  network: tcp
-  tls: true
-  udp: true
-  servername: lt.aether-runet.top
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk
-    short-id: 4fa44664f6a566d3
-  flow: xtls-rprx-vision
-- name: '🇫🇮FI-configs #3'
-  type: vless
-  server: 95.217.24.119
-  port: 2087
-  uuid: ddc0bc7e-04c6-4ff9-9adb-c68c71606e8f
-  network: tcp
-  tls: true
-  udp: true
-  servername: 62.238.103.54
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: _FKzdndiMfCSU5YLVXSBqzk2lIG0W2-DauFpos684Uc
-    short-id: e9fae729e40ae07e
-  flow: xtls-rprx-vision
-- name: '🇸🇬SG-configs #4'
-  type: vless
-  server: 5.223.74.174
-  port: 2053
-  uuid: 29b81e1a-1989-4778-b0cb-a7223730f59d
-  network: tcp
-  tls: true
-  udp: true
-  servername: 5.223.74.174
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: pIkxGlcFFawk7e0T-2VcdFXOc9LsjoBhl47vl8EuRgg
-    short-id: 36151c48e28cfb65
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #13'
-  type: vless
-  server: 51.158.206.103
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #27'
-  type: vless
-  server: nether.snappycore.com
-  port: 443
-  uuid: 8f9c5260-9456-472b-8ee2-444500ba6cab
-  network: tcp
-  tls: true
-  udp: true
-  servername: nether.snappycore.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: SCuasCPva4lPGu-QRP955zZB8f6i7ydHBQh6bsSlrgo
-    short-id: 3d87c490ddd41305
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #28'
-  type: vless
-  server: server.slavkiti.monster
-  port: 443
-  uuid: 13aef2e0-b3fb-4322-a0e9-c10b908ce6b5
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.techradar.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 87f895f23064
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #57'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 719e2e27-dcc7-4f45-9a44-52e4faa1d516
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #33'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: f62a8f0e-f8db-48a6-8f52-84922aa63368
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #12'
-  type: vless
-  server: 136.148.71.4
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: de2.edge-9d7c.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
-    short-id: 9d84de9d9f7b85e9
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #29'
-  type: vless
-  server: staging.lastilhame.monster
-  port: 443
-  uuid: 317bc783-340f-453c-afb5-b6bf637c0b23
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.tradingview.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: fc994ae7eb10
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #58'
-  type: vless
-  server: 162.35.104.143
-  port: 443
-  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
-  network: tcp
-  tls: true
-  udp: true
-  servername: sheetpeek.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo
-    short-id: 84be686ea1d16478
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #59'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: b53e1643-7371-43a2-ae13-373413b1a9fa
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #60'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 306b4e17-e660-4739-bf96-fc7ec6aa7949
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #13'
+- name: '🇬🇧GB-configs #7'
   type: vless
   server: 107.181.151.241
   port: 443
@@ -2912,535 +2274,63 @@ proxies:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
     short-id: fc994ae7eb10
   flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #16'
+- name: '🇬🇧GB-configs #8'
   type: vless
-  server: 169.40.42.16
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: '🇬🇧GB-configs #14'
-  type: vless
-  server: 3.9.135.156
-  port: 51847
-  uuid: 391a01e9-b664-407b-9158-610fab3f5920
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.tesla.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
-    short-id: 0eec442e7b34d2f2
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #34'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 7dc78e93-9c9f-4a38-823b-13df709a1d16
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #17'
-  type: vless
-  server: 169.40.42.229
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  network: tcp
-  tls: true
-  udp: true
-  servername: yahoo.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #30'
-  type: vless
-  server: server.slavkiti.monster
+  server: 107.181.151.39
   port: 443
   uuid: ed042cf7-efe0-49bd-848b-8d7e655111ff
   network: tcp
   tls: true
   udp: true
   servername: www.mozilla.org
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   reality-opts:
     public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
     short-id: 1036b2383b72
   flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #18'
+- name: '🇵🇱PL-configs #2'
   type: vless
-  server: 169.40.42.182
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  server: 144.31.171.108
+  port: 8444
+  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
   network: tcp
   tls: true
   udp: true
-  servername: yahoo.com
+  servername: pl1.chromevpn.cc
   client-fingerprint: chrome
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
+    public-key: ltHl15Wq549qC2JdAtesy-POs6Hwm_BbrlzuwDkWoUk
+    short-id: 93f5b0d1a8ce6247
   flow: xtls-rprx-vision
-- name: '🇰🇿KZ-configs #2'
+- name: '🇨🇦CA-configs #3'
   type: vless
-  server: 84.240.206.178
+  server: 209.200.246.148
   port: 443
-  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
-  network: tcp
-  tls: true
-  udp: true
-  servername: ok.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: YPxklREENCJn2akAL8LHl9IuYYLlOv_3FG_9oJXiDXQ
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #31'
-  type: vless
-  server: tg.riotvpn.eu
-  port: 443
-  uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
-  network: tcp
-  tls: true
-  udp: true
-  servername: ads.x5.ru
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
-    short-id: 2f49bccf11150ef2
-- name: '🇦🇪AE-configs #35'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: fbf81d6c-b115-485f-99a6-f42f46fe36fd
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #19'
-  type: vless
-  server: 103.109.234.243
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: de10.delivery-4f1c.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
-    short-id: 59eee550a1014198
-  flow: xtls-rprx-vision
-- name: '🇫🇷FR-configs #5'
-  type: vless
-  server: 62.210.91.2
-  port: 23576
-  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-  network: tcp
-  tls: true
-  udp: true
-  servername: fuck.rkn
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
-    short-id: '01'
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #36'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 087d9e19-a290-49ed-a9ae-b47ca943bb39
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #37'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 04dc7739-5b33-49c9-bf16-3c6919a6498f
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #38'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 4a64b0c2-de7e-4e32-b931-247be6dc4488
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #32'
-  type: vless
-  server: de3.edge-9d7c.com
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: de3.edge-9d7c.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
-    short-id: 9d84de9d9f7b85e9
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #61'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 6038e39a-d05e-483d-b853-a176707d4f69
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇯🇵JP-configs #3'
-  type: vless
-  server: 151.242.165.75
-  port: 19001
-  uuid: 61646a3c-e3e6-494b-8ae0-a98370ccff69
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.speedtest.org
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇭🇰HK-configs #2'
-  type: vless
-  server: 156.226.168.221
-  port: 35193
-  uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.apple.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE
-    short-id: e8daed2d
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #62'
-  type: vless
-  server: 34.85.179.6
-  port: 443
-  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
+  uuid: ca52e2b6-fb9f-4dac-b6dc-49da9923f251
   network: tcp
   tls: true
   udp: true
   servername: www.cloudflare.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: uTmb-ytXsx8p0fkBz7A76SHpWk7_oVutIA4LGTE8BQk
+    short-id: f98843107912e782
+  flow: xtls-rprx-vision
+- name: '🇸🇬SG-configs #4'
+  type: vless
+  server: 54.251.9.130
+  port: 24146
+  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.intel.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: cTwhlN0bIkprnzvGCMPmsdxk8XkqUz3LcCrS0FKnbVI
-    short-id: c08efcd72d7e8389
-- name: '🇦🇪AE-configs #39'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 51eb44a1-235d-4fcc-9fb1-b4a644746a9e
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
+    public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
+    short-id: 7205d9079521832c
   flow: xtls-rprx-vision
-- name: 'Domain-configs #33'
-  type: vless
-  server: server.slavkiti.monster
-  port: 443
-  uuid: 1896c6c9-a941-4688-a865-29027bf7f8e6
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.microsoft.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 6c825bc79850
-  flow: xtls-rprx-vision
-- name: '🇷🇺RU-configs #2'
-  type: vless
-  server: 138.16.141.59
-  port: 7443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  network: tcp
-  tls: true
-  udp: true
-  servername: ibm.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: RY7zkFQ01lI92jxNAyCa8T33UBW1fgpJgg8ZEqMA10k
-    short-id: a09ff9f8
-- name: '🇯🇵JP-configs #4'
-  type: vless
-  server: 38.207.130.15
-  port: 443
-  uuid: ce7beb9a-5dc1-47b3-b3ff-94521430c446
-  network: tcp
-  tls: true
-  udp: true
-  servername: yp.amazon.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: sDKrtAJk2VP_w1w7cFi2O86RdlvQ2E2An5xsRdJlgGE
-    short-id: 5ea30fc4
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #63'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 4f46bf1c-9b81-4d53-99fa-9dceb7fe06e7
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇨🇾CY-configs #5'
-  type: vless
-  server: 5.253.42.164
-  port: 40443
-  uuid: e99ba96d-dec8-42eb-be53-19e71eef7cab
-  network: tcp
-  tls: true
-  udp: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
-    short-id: 68a8
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #64'
-  type: vless
-  server: 177.3.215.62
-  port: 443
-  uuid: c795bdd5-0460-42bd-927b-fbff154d2ab5
-  network: tcp
-  tls: true
-  udp: true
-  servername: swd2.iki-servers.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: tvauhVyVSDXCgEXE34h4x7uuXTkKfC72bQeoAV1PVA8
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇦🇪AE-configs #40'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 863ce48d-6b5e-4682-b5d7-0c9b43895841
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #34'
-  type: vless
-  server: av513u.sysopnova.art
-  port: 443
-  uuid: 3710fc0f-5f0c-4b9c-a5d4-40cb419e943a
-  network: tcp
-  tls: true
-  udp: true
-  servername: yandex.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: WKN5yaRN05O2WdCURXRmS-yBVYaabaFWOvGudX6ohWc
-    short-id: b97e7d4582b6fa6e
-  flow: xtls-rprx-vision
-- name: 🇮🇱IL-configs
-  type: vless
-  server: 185.95.231.233
-  port: 443
-  uuid: 1ffa8e68-3378-4cf4-b8f6-44bf3d46d106
-  network: tcp
-  tls: true
-  udp: true
-  servername: store.steampowered.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: r4Dp3mztZaizbDk28rEOkLikk7erR9dzzc-Jrsgraho
-    short-id: a1b2c3d4
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #65'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: 9327c85f-68a9-40fe-8328-6e372ba922de
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #66'
-  type: vless
-  server: 144.31.214.172
-  port: 9443
-  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
-  network: tcp
-  tls: true
-  udp: true
-  servername: storage.yandexcloud.net
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-    short-id: ad20d2bc
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #67'
-  type: vless
-  server: 31.58.50.200
-  port: 8443
-  uuid: c91b7fa9-e8d1-4b49-94fa-72cce126e61b
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇭🇰HK-configs #3'
-  type: vless
-  server: 186.246.19.79
-  port: 40443
-  uuid: 5e3f974b-06fc-4555-907a-6681391b7c17
-  network: tcp
-  tls: true
-  udp: true
-  servername: deepl.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: oc9uweln_cqyaJnlRMnhhhKrGNP7RrYOsuYtaIOIQDE
-    short-id: 2bc0
-  flow: xtls-rprx-vision
-- name: '🇰🇷KR-configs #2'
-  type: vless
-  server: 34.64.149.137
-  port: 443
-  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
-  network: tcp
-  tls: true
-  udp: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
-    short-id: 3fd0a8ddef3ae5c6
-- name: '🇦🇪AE-configs #41'
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 62a096ea-03a4-43a7-920f-50cb0c0a6f42
-  network: tcp
-  tls: true
-  udp: true
-  servername: tradingview.com
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-    short-id: ''
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #68'
-  type: vless
-  server: 31.77.201.33
-  port: 443
-  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
-  network: tcp
-  tls: true
-  udp: true
-  servername: italia.superbuba.top
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
-    short-id: 4fa44664f6a566d3
-  flow: xtls-rprx-vision
-- name: 🇦🇱AL-configs
-  type: vless
-  server: 144.31.131.38
-  port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
-  network: tcp
-  tls: true
-  udp: true
-  servername: prod.pl-node-01.security-sbrf.ru
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-  flow: xtls-rprx-vision
-- name: 'Domain-configs #35'
-  type: vless
-  server: de2.edge-9d7c.com
-  port: 443
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  network: tcp
-  tls: true
-  udp: true
-  servername: de2.edge-9d7c.com
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
-    short-id: 9d84de9d9f7b85e9
-  flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #20'
+- name: '🇩🇪DE-configs #14'
   type: vless
   server: 169.40.42.52
   port: 443
@@ -3454,61 +2344,337 @@ proxies:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: c39cc7310a
   flow: xtls-rprx-vision
-- name: '🇰🇷KR-configs #3'
+- name: '🇦🇪AE-configs #30'
   type: vless
-  server: 47.80.62.188
-  port: 443
-  uuid: e85ca8bc-21a5-418d-a639-00236f0c3d81
+  server: 31.58.181.88
+  port: 8443
+  uuid: 98983e4e-31df-4061-bc86-1d6ade4b551b
   network: tcp
   tls: true
   udp: true
-  servername: www.nvidia.com
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #31'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: eb7f20b9-9fcf-47b2-a2d1-5bf8c333a5ec
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #32'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: cad4fa2e-7ac6-4b17-9767-9be822d838b2
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #53'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: d74eb133-54a8-469b-893b-4905cb974564
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #10'
+  type: vless
+  server: staging.lastilhame.monster
+  port: 443
+  uuid: 2f6e2b17-4d5e-4a12-8979-f53fdd347580
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.mozilla.org
   client-fingerprint: chrome
   reality-opts:
-    public-key: an8lRnGRbCvX-GW3zuc5woB6hrTxEhfyrGCv-7_QyVo
-    short-id: b229991df62826cc
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 5c8a8e6c615b
   flow: xtls-rprx-vision
-- name: '🇩🇪DE-configs #21'
+- name: '🇰🇿KZ-configs #3'
   type: vless
-  server: 169.40.42.75
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  server: 178.236.16.98
+  port: 35728
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
   network: tcp
   tls: true
   udp: true
   servername: yahoo.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  flow: xtls-rprx-vision
-- name: '🇳🇱NL-configs #14'
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+- name: 🇹🇭TH-configs
   type: vless
-  server: 107.189.26.239
+  server: 34.15.176.240
   port: 443
-  uuid: 820a850b-6e10-45e6-8142-2df17a394504
+  uuid: 742dc674-a491-4a42-a551-b3ea6dd2f447
   network: tcp
   tls: true
   udp: true
-  servername: cdn.dodostatic.net
+  servername: www.cloudflare.com
   client-fingerprint: chrome
   reality-opts:
-    public-key: F3XkvPrGmCOrJpNhpPqkVHrZ58YA0Z8VCp6y7s6We2U
-    short-id: c09a8eae8476d36c
-  flow: xtls-rprx-vision
-- name: '🇺🇸US-configs #69'
+    public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
+    short-id: 856c0a3cd1426a5c
+- name: '🇦🇪AE-configs #33'
   type: vless
-  server: 5.78.28.48
+  server: 89.125.147.199
   port: 443
-  uuid: b88a54a0-501c-4acf-930b-305354452f4e
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
   network: tcp
   tls: true
   udp: true
-  servername: www.yahoo.com
-  client-fingerprint: ios
+  servername: maps.apple.com
+  client-fingerprint: firefox
   reality-opts:
-    public-key: XB7peN-a_9j_WGBHvs3DIMDlsOzJAOehGnziOE9OvwE
-    short-id: 884dffd8e62a5c48
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+    short-id: a1b2c3d4
+- name: '🇬🇧GB-configs #9'
+  type: vless
+  server: 107.181.151.241
+  port: 443
+  uuid: 455cfdc6-9abf-4e40-863f-5ff6cc63457c
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 18e4d2d21241
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #54'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 93a8f0b3-4c97-4d14-999c-c207a55b70b0
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇨🇦CA-configs #4'
+  type: vless
+  server: 51.79.29.205
+  port: 10103
+  uuid: f6c29358-4b06-445a-bf01-360a418aca1e
+  network: tcp
+  tls: true
+  udp: true
+  servername: play-apps-features.googleusercontent.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: BEbRvaOBf0Vm-HovuysfKge6jHMgK4AGl4U0kA7w8QI
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #55'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: fcdee475-6aa0-4b8b-be8d-f587b5c5478c
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #34'
+  type: vless
+  server: 31.56.189.27
+  port: 8765
+  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+  network: tcp
+  tls: true
+  udp: true
+  servername: srv-21bac9.vless.monster
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: M08l5tDmJUYELykZCNYQyFgtR9Zc-A4ZGlUSLcUeS2c
+    short-id: 1bcc9177f3124b25
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #56'
+  type: vless
+  server: 198.251.78.29
+  port: 2053
+  uuid: c423cc1b-f88e-421c-9a16-c480d84da20f
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: Uk5b-Wh_uxeCc7R8NS9iWE40xc0h9wWC04rSB9yhgAw
+    short-id: b5d625695ec82c7e
+- name: '🇦🇪AE-configs #35'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 83045f64-b5df-434d-a81a-8bc66bdc5cab
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #11'
+  type: vless
+  server: nl5.freekeysh110.online
+  port: 443
+  uuid: f679bada-55ac-45e7-94f0-b28b4b70df2b
+  network: tcp
+  tls: true
+  udp: true
+  servername: nl5.freekeysh110.online
+  client-fingerprint: edge
+  reality-opts:
+    public-key: sgPREsDFJUchKawgXgFGEM4YBjTDur0rgD2GuQmZXzA
+    short-id: 04b9f0b2470fae16
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #12'
+  type: vless
+  server: great2.lavivas.org
+  port: 443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
+  network: tcp
+  tls: true
+  udp: true
+  servername: great2.lavivas.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: l0vCvntpKmxM6F84iVUqbQwrkFln4z10PsE0h1Yzv1s
+    short-id: d51ae57846f79378
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #13'
+  type: vless
+  server: server.slavkiti.monster
+  port: 443
+  uuid: 68cf8d29-5aa0-44b3-88a9-f1a576b6e84c
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.microsoft.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 73a9e631a09b
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #57'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 72d995a9-df53-4e8e-a8b6-e83f3a7d08ea
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #58'
+  type: vless
+  server: 45.159.79.71
+  port: 4443
+  uuid: 20dd9433-389e-4573-ba7b-689619cf13da
+  network: tcp
+  tls: true
+  udp: true
+  servername: sentry.io
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 321Ii2xbCoyll6WJ0Qm1Sh8qcC0kxXvUaZhe3kyasD8
+    short-id: a1b2c3d4e5f6a7b8
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #36'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: cc81171e-c70e-45fb-be7d-1bf0afd1258e
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #59'
+  type: vless
+  server: 179.254.94.102
+  port: 44444
+  uuid: ae2368cc-0fbe-4a06-a23e-fb73a4ac025a
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.iij.ad.jp
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: LZnkyLxA8cYoDAsmxGh0lOr1-auyZI5t_LSU-FNBkSs
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #60'
+  type: vless
+  server: 195.211.98.43
+  port: 443
+  uuid: 1b4b11d5-4c2d-4533-9a55-636757cdee94
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: xPnpkXu5qfwIArlHKvJsqKJnGdGbJK1tT2GzWMyLohA
+    short-id: 9c56fddf237e8eaf
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #61'
+  type: vless
+  server: 198.46.215.223
+  port: 8443
+  uuid: 6346ee2b-aefa-4a58-963a-bb851ed08f41
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.intel.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: L817rvnreaFtFfcqfOizxgY7ZzFeSdtopH9HVrB56hk
+    short-id: 0b3bf761ca812ee9
   flow: xtls-rprx-vision
 - name: '🇫🇮FI-configs #4'
   type: vless
@@ -3523,10 +2689,51 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
-- name: '🇰🇷KR-configs #4'
+- name: '🇦🇪AE-configs #37'
   type: vless
-  server: 3.39.4.109
-  port: 18967
+  server: 31.58.181.88
+  port: 8443
+  uuid: 757e753e-85e2-482e-a29b-852ad193bc5f
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇬🇧GB-configs #10'
+  type: vless
+  server: 107.181.151.39
+  port: 443
+  uuid: 6dfc9149-1ff9-41c3-8563-0ef284381731
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 1374bddeb25d
+  flow: xtls-rprx-vision
+- name: '🇨🇦CA-configs #5'
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+    short-id: 83f8317a948bb769
+- name: '🇸🇬SG-configs #5'
+  type: vless
+  server: 3.0.111.82
+  port: 10574
   uuid: 814bd064-544d-4255-a070-5705c03f6da9
   network: tcp
   tls: true
@@ -3537,11 +2744,790 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   flow: xtls-rprx-vision
+- name: 🇮🇳IN-configs
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+    short-id: 9980e0609b0d3891
+- name: '🇺🇸US-configs #62'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 382bd1ec-1ba8-44fd-8df4-53e251c467c7
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #14'
+  type: vless
+  server: dorado.yokkastars.com
+  port: 40443
+  uuid: af5eac96-e478-488a-bc8c-45269d7e8847
+  network: tcp
+  tls: true
+  udp: true
+  servername: deepl.com
+  client-fingerprint: qq
+  reality-opts:
+    public-key: g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw
+    short-id: 68a8
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #15'
+  type: vless
+  server: 169.40.42.133
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: '🇮🇳IN-configs #2'
+  type: vless
+  server: 148.113.5.44
+  port: 443
+  uuid: 72ea5a91-ffcc-43d2-9297-5993c3abf186
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI
+    short-id: 221873918e0bb74d
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #15'
+  type: vless
+  server: lt.aether-runet.top
+  port: 443
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  network: tcp
+  tls: true
+  udp: true
+  servername: lt.aether-runet.top
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk
+    short-id: 4fa44664f6a566d3
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #16'
+  type: vless
+  server: sg2-8sb.6121999.dpdns.org
+  port: 19825
+  uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
+  network: tcp
+  tls: true
+  udp: true
+  servername: sg2-8sb.6121999.dpdns.org
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI
+    short-id: 6ba85179e30d4fc2
+  flow: xtls-rprx-vision
+- name: '🇭🇰HK-configs #2'
+  type: vless
+  server: 2.26.224.201
+  port: 443
+  uuid: 61da8f4b-6ab1-4ca7-bae0-1cec4f9be2f8
+  network: tcp
+  tls: true
+  udp: true
+  servername: unpkg.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: V-cWjK_GZ0PTJ3wnUHgwey_dNWI6_QNXsC9CdmA0mVI
+    short-id: 408c85938839e89f
+  flow: xtls-rprx-vision
+- name: '🇪🇸ES-configs #2'
+  type: vless
+  server: 87.76.179.117
+  port: 7443
+  uuid: cb15d1b0-e48b-4c4c-b98a-fa1103aa3723
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.samsung.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ
+    short-id: d2061bb1
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #38'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 0cfc5fac-1d0d-4d66-a099-5f6802d3243b
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #63'
+  type: vless
+  server: 15.204.97.197
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #64'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 4a239f83-479c-4790-a9c7-fe7ddd483a4c
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #39'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 010158f4-1a88-4dfa-8420-c770dc1584e1
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #65'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: c4783cc5-aeec-4473-855b-1c98965949dd
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #16'
+  type: vless
+  server: 169.40.42.35
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #17'
+  type: vless
+  server: srv-21bac9.vless.monster
+  port: 8765
+  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+  network: tcp
+  tls: true
+  udp: true
+  servername: srv-21bac9.vless.monster
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: M08l5tDmJUYELykZCNYQyFgtR9Zc-A4ZGlUSLcUeS2c
+    short-id: 1bcc9177f3124b25
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #66'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 7c97de67-9586-4aa5-8adf-ff3ce469149e
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇪🇪EE-configs #2'
+  type: vless
+  server: 95.85.245.163
+  port: 442
+  uuid: 2c070f10-57e8-442b-b6cb-ff39b35d929d
+  network: tcp
+  tls: true
+  udp: true
+  servername: p-nt-www-amazon-com-kalias.amazon.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: urhSusjL1QqHdmlCrvbC9yBftecrgQMuhWmfGh0CUFg
+    short-id: ab
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #40'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: d0da19f1-fb05-488e-99c2-262389b3537b
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #67'
+  type: vless
+  server: 15.204.97.216
+  port: 23576
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  network: tcp
+  tls: true
+  udp: true
+  servername: fuck.rkn
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #68'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 9109d755-5632-40f1-be82-a9fb2e2cb104
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #69'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 431acd7d-ef6c-4d2b-b471-bcdddca8050c
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #18'
+  type: vless
+  server: pl1.chromevpn.cc
+  port: 8444
+  uuid: 02bd8b5a-170b-4a79-8e68-9cec710272c7
+  network: tcp
+  tls: true
+  udp: true
+  servername: pl1.chromevpn.cc
+  client-fingerprint: qq
+  reality-opts:
+    public-key: ltHl15Wq549qC2JdAtesy-POs6Hwm_BbrlzuwDkWoUk
+    short-id: 93f5b0d1a8ce6247
+  flow: xtls-rprx-vision
+- name: '🇨🇦CA-configs #6'
+  type: vless
+  server: 158.69.112.254
+  port: 443
+  uuid: 661f395d-b153-4199-a04b-693f5fe7f261
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.speedtest.net
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y
+    short-id: 3d3c1e645f763ee3
+  flow: xtls-rprx-vision
 - name: '🇺🇸US-configs #70'
   type: vless
   server: 31.58.50.200
   port: 8443
-  uuid: 6ae3c57a-f5fb-4b7e-a886-b8c00af5c693
+  uuid: c36f62cc-ba6c-4f39-9bcc-b8a0ff01d21b
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #71'
+  type: vless
+  server: 5.34.178.120
+  port: 443
+  uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+    short-id: 55ab5559e3a6d10a
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #17'
+  type: vless
+  server: 169.40.42.232
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #72'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: b8fca50e-e3bb-4ae2-a44e-bde0e0495b2e
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 🇱🇻LV-configs
+  type: vless
+  server: 193.163.203.253
+  port: 443
+  uuid: 441afe11-a180-4516-bb80-80a8a6b38705
+  network: tcp
+  tls: true
+  udp: true
+  servername: yandex.ru
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: gE8LUmGFXik94SoDXNiAG5KprGyhjoRwDuhGebgAVWk
+    short-id: 5ee019e02e6ed99a
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #73'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: d685c66b-0c11-4989-95da-a28134a776e3
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #19'
+  type: vless
+  server: italia.superbuba.top
+  port: 443
+  uuid: c5694dc5-39fd-4a92-8430-3837baa522a3
+  network: tcp
+  tls: true
+  udp: true
+  servername: italia.superbuba.top
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: G2U8_BvRAgcOw0sX8u_0yYdVAlD8CWLSi-uYjvH07hw
+    short-id: 4fa44664f6a566d3
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #18'
+  type: vless
+  server: 64.188.79.106
+  port: 443
+  uuid: 94006a20-6cd6-4751-a14d-c5a0bacb68bb
+  network: tcp
+  tls: true
+  udp: true
+  servername: yandex.ru
+  client-fingerprint: safari
+  reality-opts:
+    public-key: dBvFkg2zny545Ws6H_LXKEohOYV2MW_zACRrRQE1IUg
+    short-id: 992e5a9a
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #19'
+  type: vless
+  server: 169.40.42.224
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: '🇰🇷KR-configs #3'
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+    short-id: 429499c03d4cc8a0
+- name: '🇦🇪AE-configs #41'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: fbf81d6c-b115-485f-99a6-f42f46fe36fd
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #20'
+  type: vless
+  server: server.slavkiti.monster
+  port: 443
+  uuid: ff40696b-06d6-443b-9481-8d01eddd13e1
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.foxsports.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: d659da01fb94
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #74'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 315adcfd-5eab-4041-b876-f9cc8e2aa6c2
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #75'
+  type: vless
+  server: 192.255.193.161
+  port: 57101
+  uuid: f89a16c3-eae1-40f8-988c-3523c4f4ff00
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 0IEaT--ye0mKhs4VbEeybbrxXjgiYnJjiey3CfQIdHI
+    short-id: 2fa49d38
+  flow: xtls-rprx-vision
+- name: '🇨🇾CY-configs #2'
+  type: vless
+  server: 5.253.28.240
+  port: 40443
+  uuid: 405b964e-a2d2-454f-aaaa-711cc218897c
+  network: tcp
+  tls: true
+  udp: true
+  servername: deepl.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0
+    short-id: 88b6
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #42'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 1e158ab2-d28a-41c8-b31d-8ea2d8706fe7
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇨🇦CA-configs #7'
+  type: vless
+  server: 66.70.179.124
+  port: 443
+  uuid: c8f9e08d-7d07-4059-9f71-0b014b9e0ec7
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: feWlxnxySxB9B9HiuC4NwoTe_6slRqaW-EULPN0yxjY
+    short-id: af7e79b5
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #76'
+  type: vless
+  server: 194.77.71.152
+  port: 443
+  uuid: 8f67e374-53d9-43bb-85c9-a459a959cd1b
+  network: tcp
+  tls: true
+  udp: true
+  servername: 1.1.1.1
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e7i5my9c3knQgYrKCJ0pVJEPt8ZDTdbcmCtzK7IQU2Y
+    short-id: 74bd7db505e16e3f
+  flow: xtls-rprx-vision
+- name: '🇨🇦CA-configs #8'
+  type: vless
+  server: 51.161.204.244
+  port: 443
+  uuid: 36e89875-9c53-482b-bc41-d3890e9da176
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk
+    short-id: 0ad08b47f498efd2
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #20'
+  type: vless
+  server: 82.118.19.153
+  port: 443
+  uuid: adcaa148-7c66-4282-a81a-99ec8afa029d
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: Tiuy8om5Lk0pWL95-8LaFFTwH0vbURVMoOkaW9xGaiE
+    short-id: 670ed9f350bd8ee0
+  flow: xtls-rprx-vision
+- name: '🇯🇵JP-configs #7'
+  type: vless
+  server: 103.75.118.228
+  port: 11452
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.apple.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #77'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 18f3c22c-27c8-45e8-9ca3-925c98638f66
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #43'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 0817a3bb-c8fb-4ddf-a05e-321565b39cd8
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #21'
+  type: vless
+  server: server.slavkiti.monster
+  port: 443
+  uuid: 6dfc9149-1ff9-41c3-8563-0ef284381731
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.tradingview.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 1374bddeb25d
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #78'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 1925051c-083e-401a-8f53-de39d83bfc94
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: mr5AF0LFyDzYDRoYAwH6QNcHXL77-LoiwRx50ZzU8QU
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇦🇪AE-configs #44'
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: c36f62cc-ba6c-4f39-9bcc-b8a0ff01d21b
+  network: tcp
+  tls: true
+  udp: true
+  servername: tradingview.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+    short-id: ''
+  flow: xtls-rprx-vision
+- name: '🇩🇪DE-configs #21'
+  type: vless
+  server: 169.40.42.182
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  network: tcp
+  tls: true
+  udp: true
+  servername: yahoo.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  flow: xtls-rprx-vision
+- name: 'Domain-configs #22'
+  type: vless
+  server: grpmin.esterla.ir
+  port: 443
+  uuid: d7f23d5e-87c9-4686-bfc1-9b68a90b6304
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: OmkXD1dMbfqjeIWqknjlLL2n02LEZWEofWwMN5S-K0g
+    short-id: d0c1
+- name: 'Domain-configs #23'
+  type: vless
+  server: tg.riotvpn.eu
+  port: 443
+  uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a
+  network: tcp
+  tls: true
+  udp: true
+  servername: ads.x5.ru
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho
+    short-id: 2f49bccf11150ef2
+- name: '🇺🇸US-configs #79'
+  type: vless
+  server: 38.246.229.58
+  port: 47642
+  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
+  network: tcp
+  tls: true
+  udp: true
+  servername: sega.com
+  client-fingerprint: ios
+  reality-opts:
+    public-key: 9mg1QdPctekP9woKygHzBCxb8Hw2QTICXROQiiJB6Ag
+    short-id: 76ed3287
+- name: 'Domain-configs #24'
+  type: vless
+  server: hk-1.gsafevpnapi.com
+  port: 20270
+  uuid: 8f2774ba-73fe-404d-a01b-7c01812ff75b
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.yahoo.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8
+    short-id: d5b538acf8a93540
+  flow: xtls-rprx-vision
+- name: '🇪🇸ES-configs #3'
+  type: vless
+  server: 46.28.71.247
+  port: 443
+  uuid: 12c53e32-e589-47d6-b857-e4132294f767
+  network: tcp
+  tls: true
+  udp: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: v4MuZIvFrTPT5GHMSaPryUAbIZlLstmsUTzmC1E-JTE
+    short-id: 0dfc23fe80778c00
+  flow: xtls-rprx-vision
+- name: '🇺🇸US-configs #80'
+  type: vless
+  server: 31.58.50.200
+  port: 8443
+  uuid: 41a463f0-8c2d-4090-8456-e3278cab8fa2
   network: tcp
   tls: true
   udp: true
@@ -3557,256 +3543,256 @@ proxy-groups:
   proxies:
   - ♻️ AUTO
   - 🔯 FALLBACK
-  - 🇩🇪DE-configs
-  - 🇺🇸US-configs
-  - '🇺🇸US-configs #2'
-  - '🇺🇸US-configs #3'
-  - 🇷🇴RO-configs
-  - '🇩🇪DE-configs #2'
   - Domain-configs
-  - 🇳🇱NL-configs
-  - '🇩🇪DE-configs #3'
+  - 🇦🇹AT-configs
+  - 🇺🇸US-configs
+  - 🇫🇷FR-configs
+  - 🇸🇪SE-configs
   - 🇦🇪AE-configs
+  - 🇬🇧GB-configs
+  - 🇳🇱NL-configs
+  - '🇺🇸US-configs #2'
+  - '🇬🇧GB-configs #2'
   - '🇦🇪AE-configs #2'
   - '🇳🇱NL-configs #2'
-  - 🇸🇬SG-configs
-  - '🇩🇪DE-configs #4'
-  - 🇨🇦CA-configs
+  - '🇺🇸US-configs #3'
   - '🇺🇸US-configs #4'
-  - 'Domain-configs #2'
-  - '🇸🇬SG-configs #2'
+  - 🇩🇪DE-configs
+  - 🇭🇰HK-configs
   - '🇺🇸US-configs #5'
-  - 🇬🇧GB-configs
-  - '🇬🇧GB-configs #2'
+  - 🇪🇸ES-configs
   - '🇺🇸US-configs #6'
-  - '🇺🇸US-configs #7'
-  - '🇺🇸US-configs #8'
-  - 🇯🇵JP-configs
-  - '🇺🇸US-configs #9'
   - '🇦🇪AE-configs #3'
-  - '🇦🇪AE-configs #4'
-  - 🇦🇹AT-configs
+  - '🇺🇸US-configs #7'
+  - '🇳🇱NL-configs #3'
+  - 🇰🇿KZ-configs
+  - '🇺🇸US-configs #8'
+  - '🇺🇸US-configs #9'
   - '🇺🇸US-configs #10'
   - '🇺🇸US-configs #11'
-  - '🇺🇸US-configs #12'
-  - '🇺🇸US-configs #13'
-  - 🇸🇦SA-configs
-  - '🇦🇪AE-configs #5'
+  - 'Domain-configs #2'
+  - '🇩🇪DE-configs #2'
+  - '🇬🇧GB-configs #3'
+  - 🇰🇷KR-configs
+  - 🇮🇱IL-configs
+  - '🇳🇱NL-configs #4'
+  - 🇨🇾CY-configs
   - 'Domain-configs #3'
+  - '🇩🇪DE-configs #3'
+  - '🇦🇪AE-configs #4'
+  - '🇺🇸US-configs #12'
+  - 🇯🇵JP-configs
+  - '🇺🇸US-configs #13'
+  - '🇦🇪AE-configs #5'
+  - '🇩🇪DE-configs #4'
+  - '🇩🇪DE-configs #5'
   - 'Domain-configs #4'
+  - 'Domain-configs #5'
   - '🇺🇸US-configs #14'
-  - 🇦🇺AU-configs
   - '🇦🇪AE-configs #6'
   - '🇺🇸US-configs #15'
-  - 🇮🇳IN-configs
-  - '🇩🇪DE-configs #5'
-  - 🇫🇷FR-configs
-  - '🇨🇦CA-configs #2'
   - '🇺🇸US-configs #16'
-  - '🇦🇪AE-configs #7'
-  - '🇦🇪AE-configs #8'
-  - 🇹🇷TR-configs
-  - 'Domain-configs #5'
-  - '🇦🇪AE-configs #9'
-  - 'Domain-configs #6'
-  - '🇬🇧GB-configs #3'
-  - '🇬🇧GB-configs #4'
-  - '🇬🇧GB-configs #5'
-  - '🇨🇦CA-configs #3'
+  - '🇺🇸US-configs #17'
+  - '🇺🇸US-configs #18'
   - '🇫🇷FR-configs #2'
-  - 'Domain-configs #7'
+  - 🇨🇦CA-configs
+  - '🇦🇪AE-configs #7'
+  - 🇹🇼TW-configs
+  - '🇦🇪AE-configs #8'
+  - '🇺🇸US-configs #19'
+  - '🇺🇸US-configs #20'
+  - '🇺🇸US-configs #21'
+  - 🇵🇱PL-configs
+  - '🇦🇪AE-configs #9'
+  - 🇱🇹LT-configs
+  - 🇸🇬SG-configs
+  - '🇺🇸US-configs #22'
+  - '🇦🇪AE-configs #10'
+  - 🇮🇹IT-configs
+  - 🇧🇬BG-configs
+  - '🇦🇪AE-configs #11'
+  - 🇹🇷TR-configs
   - '🇩🇪DE-configs #6'
   - '🇩🇪DE-configs #7'
-  - '🇦🇪AE-configs #10'
-  - 🇧🇬BG-configs
-  - '🇬🇧GB-configs #6'
-  - 🇹🇼TW-configs
-  - '🇦🇪AE-configs #11'
-  - '🇺🇸US-configs #17'
-  - '🇳🇱NL-configs #3'
-  - '🇦🇪AE-configs #12'
-  - '🇩🇪DE-configs #8'
-  - '🇩🇪DE-configs #9'
-  - '🇦🇪AE-configs #13'
-  - '🇺🇸US-configs #18'
-  - '🇦🇪AE-configs #14'
-  - 🇸🇪SE-configs
-  - '🇺🇸US-configs #19'
-  - 🇭🇰HK-configs
-  - '🇳🇱NL-configs #4'
-  - '🇬🇧GB-configs #7'
-  - '🇺🇸US-configs #20'
-  - '🇦🇪AE-configs #15'
-  - '🇺🇸US-configs #21'
-  - 🇫🇮FI-configs
-  - 'Domain-configs #8'
-  - '🇳🇱NL-configs #5'
-  - '🇦🇪AE-configs #16'
-  - '🇫🇷FR-configs #3'
-  - '🇫🇮FI-configs #2'
-  - '🇦🇪AE-configs #17'
-  - '🇺🇸US-configs #22'
-  - '🇺🇸US-configs #23'
-  - '🇺🇸US-configs #24'
-  - 'Domain-configs #9'
   - '🇯🇵JP-configs #2'
-  - 'Domain-configs #10'
-  - 🇨🇾CY-configs
-  - '🇳🇱NL-configs #6'
-  - '🇬🇧GB-configs #8'
-  - '🇨🇾CY-configs #2'
-  - 'Domain-configs #11'
+  - '🇺🇸US-configs #23'
+  - '🇰🇿KZ-configs #2'
+  - '🇳🇱NL-configs #5'
+  - '🇦🇪AE-configs #12'
+  - '🇺🇸US-configs #24'
+  - '🇹🇷TR-configs #2'
+  - 🇫🇮FI-configs
+  - 🇪🇪EE-configs
   - '🇺🇸US-configs #25'
-  - '🇩🇪DE-configs #10'
+  - 🇷🇴RO-configs
+  - 'Domain-configs #6'
+  - '🇯🇵JP-configs #3'
   - '🇺🇸US-configs #26'
-  - '🇦🇪AE-configs #18'
-  - '🇬🇧GB-configs #9'
-  - 'Domain-configs #12'
-  - '🇨🇾CY-configs #3'
-  - 🇵🇱PL-configs
+  - '🇫🇮FI-configs #2'
   - '🇺🇸US-configs #27'
-  - '🇩🇪DE-configs #11'
+  - '🇦🇪AE-configs #13'
+  - '🇸🇪SE-configs #2'
+  - '🇩🇪DE-configs #8'
+  - '🇰🇷KR-configs #2'
   - '🇺🇸US-configs #28'
-  - 'Domain-configs #13'
+  - '🇦🇪AE-configs #14'
   - '🇺🇸US-configs #29'
+  - '🇦🇪AE-configs #15'
+  - '🇩🇪DE-configs #9'
+  - '🇧🇬BG-configs #2'
+  - '🇩🇪DE-configs #10'
   - '🇺🇸US-configs #30'
-  - '🇦🇪AE-configs #19'
-  - '🇳🇱NL-configs #7'
   - '🇺🇸US-configs #31'
-  - '🇦🇪AE-configs #20'
   - '🇺🇸US-configs #32'
-  - 'Domain-configs #14'
-  - '🇩🇪DE-configs #12'
-  - 'Domain-configs #15'
-  - '🇳🇱NL-configs #8'
-  - '🇳🇱NL-configs #9'
   - '🇺🇸US-configs #33'
-  - '🇦🇪AE-configs #21'
-  - '🇦🇪AE-configs #22'
-  - '🇦🇪AE-configs #23'
   - '🇺🇸US-configs #34'
   - '🇺🇸US-configs #35'
-  - '🇦🇪AE-configs #24'
   - '🇺🇸US-configs #36'
-  - 'Domain-configs #16'
-  - 🇮🇹IT-configs
-  - '🇸🇬SG-configs #3'
-  - 'Domain-configs #17'
   - '🇺🇸US-configs #37'
-  - '🇳🇱NL-configs #10'
-  - '🇳🇱NL-configs #11'
-  - 'Domain-configs #18'
-  - '🇦🇪AE-configs #25'
+  - '🇦🇪AE-configs #16'
+  - '🇹🇼TW-configs #2'
+  - '🇫🇮FI-configs #3'
   - '🇺🇸US-configs #38'
-  - '🇬🇧GB-configs #10'
-  - 'Domain-configs #19'
-  - '🇨🇦CA-configs #4'
   - '🇺🇸US-configs #39'
-  - '🇬🇧GB-configs #11'
+  - '🇸🇬SG-configs #2'
   - '🇺🇸US-configs #40'
-  - '🇦🇪AE-configs #26'
   - '🇺🇸US-configs #41'
-  - '🇩🇪DE-configs #13'
-  - 'Domain-configs #20'
-  - '🇸🇪SE-configs #2'
-  - '🇩🇪DE-configs #14'
-  - '🇦🇪AE-configs #27'
-  - '🇦🇪AE-configs #28'
-  - 🇷🇺RU-configs
   - '🇺🇸US-configs #42'
+  - '🇯🇵JP-configs #4'
+  - '🇩🇪DE-configs #11'
+  - '🇦🇪AE-configs #17'
   - '🇺🇸US-configs #43'
   - '🇺🇸US-configs #44'
-  - 'Domain-configs #21'
-  - '🇫🇷FR-configs #4'
-  - 'Domain-configs #22'
-  - 🇰🇷KR-configs
   - '🇺🇸US-configs #45'
-  - '🇦🇪AE-configs #29'
+  - '🇦🇪AE-configs #18'
+  - '🇦🇪AE-configs #19'
+  - '🇦🇪AE-configs #20'
+  - '🇦🇪AE-configs #21'
   - '🇺🇸US-configs #46'
-  - '🇩🇪DE-configs #15'
+  - '🇦🇪AE-configs #22'
+  - '🇬🇧GB-configs #4'
+  - '🇦🇪AE-configs #23'
   - '🇺🇸US-configs #47'
+  - '🇩🇪DE-configs #12'
+  - '🇳🇱NL-configs #6'
+  - 'Domain-configs #7'
+  - '🇦🇪AE-configs #24'
   - '🇺🇸US-configs #48'
+  - '🇦🇪AE-configs #25'
+  - '🇸🇬SG-configs #3'
+  - '🇦🇪AE-configs #26'
+  - '🇦🇪AE-configs #27'
+  - 🇦🇺AU-configs
+  - 'Domain-configs #8'
+  - 🇷🇺RU-configs
+  - '🇬🇧GB-configs #5'
+  - '🇬🇧GB-configs #6'
+  - '🇩🇪DE-configs #13'
+  - 'Domain-configs #9'
+  - '🇳🇱NL-configs #7'
+  - '🇨🇦CA-configs #2'
+  - '🇳🇱NL-configs #8'
+  - 🇦🇲AM-configs
+  - '🇯🇵JP-configs #5'
+  - '🇦🇪AE-configs #28'
   - '🇺🇸US-configs #49'
-  - 🇬🇹GT-configs
+  - '🇦🇪AE-configs #29'
   - '🇺🇸US-configs #50'
-  - '🇦🇪AE-configs #30'
-  - '🇨🇾CY-configs #4'
-  - 'Domain-configs #23'
-  - 🇰🇿KZ-configs
-  - 'Domain-configs #24'
-  - '🇵🇱PL-configs #2'
+  - '🇯🇵JP-configs #6'
   - '🇺🇸US-configs #51'
   - '🇺🇸US-configs #52'
-  - 'Domain-configs #25'
-  - 'Domain-configs #26'
-  - '🇳🇱NL-configs #12'
-  - '🇺🇸US-configs #53'
-  - '🇺🇸US-configs #54'
-  - '🇺🇸US-configs #55'
-  - '🇦🇪AE-configs #31'
-  - '🇺🇸US-configs #56'
-  - '🇦🇪AE-configs #32'
-  - '🇵🇱PL-configs #3'
-  - 🇱🇹LT-configs
-  - '🇫🇮FI-configs #3'
+  - '🇬🇧GB-configs #7'
+  - '🇬🇧GB-configs #8'
+  - '🇵🇱PL-configs #2'
+  - '🇨🇦CA-configs #3'
   - '🇸🇬SG-configs #4'
-  - '🇳🇱NL-configs #13'
-  - 'Domain-configs #27'
-  - 'Domain-configs #28'
-  - '🇺🇸US-configs #57'
+  - '🇩🇪DE-configs #14'
+  - '🇦🇪AE-configs #30'
+  - '🇦🇪AE-configs #31'
+  - '🇦🇪AE-configs #32'
+  - '🇺🇸US-configs #53'
+  - 'Domain-configs #10'
+  - '🇰🇿KZ-configs #3'
+  - 🇹🇭TH-configs
   - '🇦🇪AE-configs #33'
-  - '🇬🇧GB-configs #12'
-  - 'Domain-configs #29'
+  - '🇬🇧GB-configs #9'
+  - '🇺🇸US-configs #54'
+  - '🇨🇦CA-configs #4'
+  - '🇺🇸US-configs #55'
+  - '🇦🇪AE-configs #34'
+  - '🇺🇸US-configs #56'
+  - '🇦🇪AE-configs #35'
+  - 'Domain-configs #11'
+  - 'Domain-configs #12'
+  - 'Domain-configs #13'
+  - '🇺🇸US-configs #57'
   - '🇺🇸US-configs #58'
+  - '🇦🇪AE-configs #36'
   - '🇺🇸US-configs #59'
   - '🇺🇸US-configs #60'
-  - '🇬🇧GB-configs #13'
-  - '🇩🇪DE-configs #16'
-  - '🇬🇧GB-configs #14'
-  - '🇦🇪AE-configs #34'
-  - '🇩🇪DE-configs #17'
-  - 'Domain-configs #30'
-  - '🇩🇪DE-configs #18'
-  - '🇰🇿KZ-configs #2'
-  - 'Domain-configs #31'
-  - '🇦🇪AE-configs #35'
-  - '🇩🇪DE-configs #19'
-  - '🇫🇷FR-configs #5'
-  - '🇦🇪AE-configs #36'
-  - '🇦🇪AE-configs #37'
-  - '🇦🇪AE-configs #38'
-  - 'Domain-configs #32'
   - '🇺🇸US-configs #61'
-  - '🇯🇵JP-configs #3'
-  - '🇭🇰HK-configs #2'
-  - '🇺🇸US-configs #62'
-  - '🇦🇪AE-configs #39'
-  - 'Domain-configs #33'
-  - '🇷🇺RU-configs #2'
-  - '🇯🇵JP-configs #4'
-  - '🇺🇸US-configs #63'
-  - '🇨🇾CY-configs #5'
-  - '🇺🇸US-configs #64'
-  - '🇦🇪AE-configs #40'
-  - 'Domain-configs #34'
-  - 🇮🇱IL-configs
-  - '🇺🇸US-configs #65'
-  - '🇺🇸US-configs #66'
-  - '🇺🇸US-configs #67'
-  - '🇭🇰HK-configs #3'
-  - '🇰🇷KR-configs #2'
-  - '🇦🇪AE-configs #41'
-  - '🇺🇸US-configs #68'
-  - 🇦🇱AL-configs
-  - 'Domain-configs #35'
-  - '🇩🇪DE-configs #20'
-  - '🇰🇷KR-configs #3'
-  - '🇩🇪DE-configs #21'
-  - '🇳🇱NL-configs #14'
-  - '🇺🇸US-configs #69'
   - '🇫🇮FI-configs #4'
-  - '🇰🇷KR-configs #4'
+  - '🇦🇪AE-configs #37'
+  - '🇬🇧GB-configs #10'
+  - '🇨🇦CA-configs #5'
+  - '🇸🇬SG-configs #5'
+  - 🇮🇳IN-configs
+  - '🇺🇸US-configs #62'
+  - 'Domain-configs #14'
+  - '🇩🇪DE-configs #15'
+  - '🇮🇳IN-configs #2'
+  - 'Domain-configs #15'
+  - 'Domain-configs #16'
+  - '🇭🇰HK-configs #2'
+  - '🇪🇸ES-configs #2'
+  - '🇦🇪AE-configs #38'
+  - '🇺🇸US-configs #63'
+  - '🇺🇸US-configs #64'
+  - '🇦🇪AE-configs #39'
+  - '🇺🇸US-configs #65'
+  - '🇩🇪DE-configs #16'
+  - 'Domain-configs #17'
+  - '🇺🇸US-configs #66'
+  - '🇪🇪EE-configs #2'
+  - '🇦🇪AE-configs #40'
+  - '🇺🇸US-configs #67'
+  - '🇺🇸US-configs #68'
+  - '🇺🇸US-configs #69'
+  - 'Domain-configs #18'
+  - '🇨🇦CA-configs #6'
   - '🇺🇸US-configs #70'
+  - '🇺🇸US-configs #71'
+  - '🇩🇪DE-configs #17'
+  - '🇺🇸US-configs #72'
+  - 🇱🇻LV-configs
+  - '🇺🇸US-configs #73'
+  - 'Domain-configs #19'
+  - '🇩🇪DE-configs #18'
+  - '🇩🇪DE-configs #19'
+  - '🇰🇷KR-configs #3'
+  - '🇦🇪AE-configs #41'
+  - 'Domain-configs #20'
+  - '🇺🇸US-configs #74'
+  - '🇺🇸US-configs #75'
+  - '🇨🇾CY-configs #2'
+  - '🇦🇪AE-configs #42'
+  - '🇨🇦CA-configs #7'
+  - '🇺🇸US-configs #76'
+  - '🇨🇦CA-configs #8'
+  - '🇩🇪DE-configs #20'
+  - '🇯🇵JP-configs #7'
+  - '🇺🇸US-configs #77'
+  - '🇦🇪AE-configs #43'
+  - 'Domain-configs #21'
+  - '🇺🇸US-configs #78'
+  - '🇦🇪AE-configs #44'
+  - '🇩🇪DE-configs #21'
+  - 'Domain-configs #22'
+  - 'Domain-configs #23'
+  - '🇺🇸US-configs #79'
+  - 'Domain-configs #24'
+  - '🇪🇸ES-configs #3'
+  - '🇺🇸US-configs #80'
   - DIRECT
 - name: ♻️ AUTO
   type: url-test
@@ -3815,256 +3801,256 @@ proxy-groups:
   lazy: true
   url: http://www.gstatic.com/generate_204
   proxies: &id001
-  - 🇩🇪DE-configs
-  - 🇺🇸US-configs
-  - '🇺🇸US-configs #2'
-  - '🇺🇸US-configs #3'
-  - 🇷🇴RO-configs
-  - '🇩🇪DE-configs #2'
   - Domain-configs
-  - 🇳🇱NL-configs
-  - '🇩🇪DE-configs #3'
+  - 🇦🇹AT-configs
+  - 🇺🇸US-configs
+  - 🇫🇷FR-configs
+  - 🇸🇪SE-configs
   - 🇦🇪AE-configs
+  - 🇬🇧GB-configs
+  - 🇳🇱NL-configs
+  - '🇺🇸US-configs #2'
+  - '🇬🇧GB-configs #2'
   - '🇦🇪AE-configs #2'
   - '🇳🇱NL-configs #2'
-  - 🇸🇬SG-configs
-  - '🇩🇪DE-configs #4'
-  - 🇨🇦CA-configs
+  - '🇺🇸US-configs #3'
   - '🇺🇸US-configs #4'
-  - 'Domain-configs #2'
-  - '🇸🇬SG-configs #2'
+  - 🇩🇪DE-configs
+  - 🇭🇰HK-configs
   - '🇺🇸US-configs #5'
-  - 🇬🇧GB-configs
-  - '🇬🇧GB-configs #2'
+  - 🇪🇸ES-configs
   - '🇺🇸US-configs #6'
-  - '🇺🇸US-configs #7'
-  - '🇺🇸US-configs #8'
-  - 🇯🇵JP-configs
-  - '🇺🇸US-configs #9'
   - '🇦🇪AE-configs #3'
-  - '🇦🇪AE-configs #4'
-  - 🇦🇹AT-configs
+  - '🇺🇸US-configs #7'
+  - '🇳🇱NL-configs #3'
+  - 🇰🇿KZ-configs
+  - '🇺🇸US-configs #8'
+  - '🇺🇸US-configs #9'
   - '🇺🇸US-configs #10'
   - '🇺🇸US-configs #11'
-  - '🇺🇸US-configs #12'
-  - '🇺🇸US-configs #13'
-  - 🇸🇦SA-configs
-  - '🇦🇪AE-configs #5'
+  - 'Domain-configs #2'
+  - '🇩🇪DE-configs #2'
+  - '🇬🇧GB-configs #3'
+  - 🇰🇷KR-configs
+  - 🇮🇱IL-configs
+  - '🇳🇱NL-configs #4'
+  - 🇨🇾CY-configs
   - 'Domain-configs #3'
+  - '🇩🇪DE-configs #3'
+  - '🇦🇪AE-configs #4'
+  - '🇺🇸US-configs #12'
+  - 🇯🇵JP-configs
+  - '🇺🇸US-configs #13'
+  - '🇦🇪AE-configs #5'
+  - '🇩🇪DE-configs #4'
+  - '🇩🇪DE-configs #5'
   - 'Domain-configs #4'
+  - 'Domain-configs #5'
   - '🇺🇸US-configs #14'
-  - 🇦🇺AU-configs
   - '🇦🇪AE-configs #6'
   - '🇺🇸US-configs #15'
-  - 🇮🇳IN-configs
-  - '🇩🇪DE-configs #5'
-  - 🇫🇷FR-configs
-  - '🇨🇦CA-configs #2'
   - '🇺🇸US-configs #16'
-  - '🇦🇪AE-configs #7'
-  - '🇦🇪AE-configs #8'
-  - 🇹🇷TR-configs
-  - 'Domain-configs #5'
-  - '🇦🇪AE-configs #9'
-  - 'Domain-configs #6'
-  - '🇬🇧GB-configs #3'
-  - '🇬🇧GB-configs #4'
-  - '🇬🇧GB-configs #5'
-  - '🇨🇦CA-configs #3'
+  - '🇺🇸US-configs #17'
+  - '🇺🇸US-configs #18'
   - '🇫🇷FR-configs #2'
-  - 'Domain-configs #7'
+  - 🇨🇦CA-configs
+  - '🇦🇪AE-configs #7'
+  - 🇹🇼TW-configs
+  - '🇦🇪AE-configs #8'
+  - '🇺🇸US-configs #19'
+  - '🇺🇸US-configs #20'
+  - '🇺🇸US-configs #21'
+  - 🇵🇱PL-configs
+  - '🇦🇪AE-configs #9'
+  - 🇱🇹LT-configs
+  - 🇸🇬SG-configs
+  - '🇺🇸US-configs #22'
+  - '🇦🇪AE-configs #10'
+  - 🇮🇹IT-configs
+  - 🇧🇬BG-configs
+  - '🇦🇪AE-configs #11'
+  - 🇹🇷TR-configs
   - '🇩🇪DE-configs #6'
   - '🇩🇪DE-configs #7'
-  - '🇦🇪AE-configs #10'
-  - 🇧🇬BG-configs
-  - '🇬🇧GB-configs #6'
-  - 🇹🇼TW-configs
-  - '🇦🇪AE-configs #11'
-  - '🇺🇸US-configs #17'
-  - '🇳🇱NL-configs #3'
-  - '🇦🇪AE-configs #12'
-  - '🇩🇪DE-configs #8'
-  - '🇩🇪DE-configs #9'
-  - '🇦🇪AE-configs #13'
-  - '🇺🇸US-configs #18'
-  - '🇦🇪AE-configs #14'
-  - 🇸🇪SE-configs
-  - '🇺🇸US-configs #19'
-  - 🇭🇰HK-configs
-  - '🇳🇱NL-configs #4'
-  - '🇬🇧GB-configs #7'
-  - '🇺🇸US-configs #20'
-  - '🇦🇪AE-configs #15'
-  - '🇺🇸US-configs #21'
-  - 🇫🇮FI-configs
-  - 'Domain-configs #8'
-  - '🇳🇱NL-configs #5'
-  - '🇦🇪AE-configs #16'
-  - '🇫🇷FR-configs #3'
-  - '🇫🇮FI-configs #2'
-  - '🇦🇪AE-configs #17'
-  - '🇺🇸US-configs #22'
-  - '🇺🇸US-configs #23'
-  - '🇺🇸US-configs #24'
-  - 'Domain-configs #9'
   - '🇯🇵JP-configs #2'
-  - 'Domain-configs #10'
-  - 🇨🇾CY-configs
-  - '🇳🇱NL-configs #6'
-  - '🇬🇧GB-configs #8'
-  - '🇨🇾CY-configs #2'
-  - 'Domain-configs #11'
+  - '🇺🇸US-configs #23'
+  - '🇰🇿KZ-configs #2'
+  - '🇳🇱NL-configs #5'
+  - '🇦🇪AE-configs #12'
+  - '🇺🇸US-configs #24'
+  - '🇹🇷TR-configs #2'
+  - 🇫🇮FI-configs
+  - 🇪🇪EE-configs
   - '🇺🇸US-configs #25'
-  - '🇩🇪DE-configs #10'
+  - 🇷🇴RO-configs
+  - 'Domain-configs #6'
+  - '🇯🇵JP-configs #3'
   - '🇺🇸US-configs #26'
-  - '🇦🇪AE-configs #18'
-  - '🇬🇧GB-configs #9'
-  - 'Domain-configs #12'
-  - '🇨🇾CY-configs #3'
-  - 🇵🇱PL-configs
+  - '🇫🇮FI-configs #2'
   - '🇺🇸US-configs #27'
-  - '🇩🇪DE-configs #11'
+  - '🇦🇪AE-configs #13'
+  - '🇸🇪SE-configs #2'
+  - '🇩🇪DE-configs #8'
+  - '🇰🇷KR-configs #2'
   - '🇺🇸US-configs #28'
-  - 'Domain-configs #13'
+  - '🇦🇪AE-configs #14'
   - '🇺🇸US-configs #29'
+  - '🇦🇪AE-configs #15'
+  - '🇩🇪DE-configs #9'
+  - '🇧🇬BG-configs #2'
+  - '🇩🇪DE-configs #10'
   - '🇺🇸US-configs #30'
-  - '🇦🇪AE-configs #19'
-  - '🇳🇱NL-configs #7'
   - '🇺🇸US-configs #31'
-  - '🇦🇪AE-configs #20'
   - '🇺🇸US-configs #32'
-  - 'Domain-configs #14'
-  - '🇩🇪DE-configs #12'
-  - 'Domain-configs #15'
-  - '🇳🇱NL-configs #8'
-  - '🇳🇱NL-configs #9'
   - '🇺🇸US-configs #33'
-  - '🇦🇪AE-configs #21'
-  - '🇦🇪AE-configs #22'
-  - '🇦🇪AE-configs #23'
   - '🇺🇸US-configs #34'
   - '🇺🇸US-configs #35'
-  - '🇦🇪AE-configs #24'
   - '🇺🇸US-configs #36'
-  - 'Domain-configs #16'
-  - 🇮🇹IT-configs
-  - '🇸🇬SG-configs #3'
-  - 'Domain-configs #17'
   - '🇺🇸US-configs #37'
-  - '🇳🇱NL-configs #10'
-  - '🇳🇱NL-configs #11'
-  - 'Domain-configs #18'
-  - '🇦🇪AE-configs #25'
+  - '🇦🇪AE-configs #16'
+  - '🇹🇼TW-configs #2'
+  - '🇫🇮FI-configs #3'
   - '🇺🇸US-configs #38'
-  - '🇬🇧GB-configs #10'
-  - 'Domain-configs #19'
-  - '🇨🇦CA-configs #4'
   - '🇺🇸US-configs #39'
-  - '🇬🇧GB-configs #11'
+  - '🇸🇬SG-configs #2'
   - '🇺🇸US-configs #40'
-  - '🇦🇪AE-configs #26'
   - '🇺🇸US-configs #41'
-  - '🇩🇪DE-configs #13'
-  - 'Domain-configs #20'
-  - '🇸🇪SE-configs #2'
-  - '🇩🇪DE-configs #14'
-  - '🇦🇪AE-configs #27'
-  - '🇦🇪AE-configs #28'
-  - 🇷🇺RU-configs
   - '🇺🇸US-configs #42'
+  - '🇯🇵JP-configs #4'
+  - '🇩🇪DE-configs #11'
+  - '🇦🇪AE-configs #17'
   - '🇺🇸US-configs #43'
   - '🇺🇸US-configs #44'
-  - 'Domain-configs #21'
-  - '🇫🇷FR-configs #4'
-  - 'Domain-configs #22'
-  - 🇰🇷KR-configs
   - '🇺🇸US-configs #45'
-  - '🇦🇪AE-configs #29'
+  - '🇦🇪AE-configs #18'
+  - '🇦🇪AE-configs #19'
+  - '🇦🇪AE-configs #20'
+  - '🇦🇪AE-configs #21'
   - '🇺🇸US-configs #46'
-  - '🇩🇪DE-configs #15'
+  - '🇦🇪AE-configs #22'
+  - '🇬🇧GB-configs #4'
+  - '🇦🇪AE-configs #23'
   - '🇺🇸US-configs #47'
+  - '🇩🇪DE-configs #12'
+  - '🇳🇱NL-configs #6'
+  - 'Domain-configs #7'
+  - '🇦🇪AE-configs #24'
   - '🇺🇸US-configs #48'
+  - '🇦🇪AE-configs #25'
+  - '🇸🇬SG-configs #3'
+  - '🇦🇪AE-configs #26'
+  - '🇦🇪AE-configs #27'
+  - 🇦🇺AU-configs
+  - 'Domain-configs #8'
+  - 🇷🇺RU-configs
+  - '🇬🇧GB-configs #5'
+  - '🇬🇧GB-configs #6'
+  - '🇩🇪DE-configs #13'
+  - 'Domain-configs #9'
+  - '🇳🇱NL-configs #7'
+  - '🇨🇦CA-configs #2'
+  - '🇳🇱NL-configs #8'
+  - 🇦🇲AM-configs
+  - '🇯🇵JP-configs #5'
+  - '🇦🇪AE-configs #28'
   - '🇺🇸US-configs #49'
-  - 🇬🇹GT-configs
+  - '🇦🇪AE-configs #29'
   - '🇺🇸US-configs #50'
-  - '🇦🇪AE-configs #30'
-  - '🇨🇾CY-configs #4'
-  - 'Domain-configs #23'
-  - 🇰🇿KZ-configs
-  - 'Domain-configs #24'
-  - '🇵🇱PL-configs #2'
+  - '🇯🇵JP-configs #6'
   - '🇺🇸US-configs #51'
   - '🇺🇸US-configs #52'
-  - 'Domain-configs #25'
-  - 'Domain-configs #26'
-  - '🇳🇱NL-configs #12'
-  - '🇺🇸US-configs #53'
-  - '🇺🇸US-configs #54'
-  - '🇺🇸US-configs #55'
-  - '🇦🇪AE-configs #31'
-  - '🇺🇸US-configs #56'
-  - '🇦🇪AE-configs #32'
-  - '🇵🇱PL-configs #3'
-  - 🇱🇹LT-configs
-  - '🇫🇮FI-configs #3'
+  - '🇬🇧GB-configs #7'
+  - '🇬🇧GB-configs #8'
+  - '🇵🇱PL-configs #2'
+  - '🇨🇦CA-configs #3'
   - '🇸🇬SG-configs #4'
-  - '🇳🇱NL-configs #13'
-  - 'Domain-configs #27'
-  - 'Domain-configs #28'
-  - '🇺🇸US-configs #57'
+  - '🇩🇪DE-configs #14'
+  - '🇦🇪AE-configs #30'
+  - '🇦🇪AE-configs #31'
+  - '🇦🇪AE-configs #32'
+  - '🇺🇸US-configs #53'
+  - 'Domain-configs #10'
+  - '🇰🇿KZ-configs #3'
+  - 🇹🇭TH-configs
   - '🇦🇪AE-configs #33'
-  - '🇬🇧GB-configs #12'
-  - 'Domain-configs #29'
+  - '🇬🇧GB-configs #9'
+  - '🇺🇸US-configs #54'
+  - '🇨🇦CA-configs #4'
+  - '🇺🇸US-configs #55'
+  - '🇦🇪AE-configs #34'
+  - '🇺🇸US-configs #56'
+  - '🇦🇪AE-configs #35'
+  - 'Domain-configs #11'
+  - 'Domain-configs #12'
+  - 'Domain-configs #13'
+  - '🇺🇸US-configs #57'
   - '🇺🇸US-configs #58'
+  - '🇦🇪AE-configs #36'
   - '🇺🇸US-configs #59'
   - '🇺🇸US-configs #60'
-  - '🇬🇧GB-configs #13'
-  - '🇩🇪DE-configs #16'
-  - '🇬🇧GB-configs #14'
-  - '🇦🇪AE-configs #34'
-  - '🇩🇪DE-configs #17'
-  - 'Domain-configs #30'
-  - '🇩🇪DE-configs #18'
-  - '🇰🇿KZ-configs #2'
-  - 'Domain-configs #31'
-  - '🇦🇪AE-configs #35'
-  - '🇩🇪DE-configs #19'
-  - '🇫🇷FR-configs #5'
-  - '🇦🇪AE-configs #36'
-  - '🇦🇪AE-configs #37'
-  - '🇦🇪AE-configs #38'
-  - 'Domain-configs #32'
   - '🇺🇸US-configs #61'
-  - '🇯🇵JP-configs #3'
-  - '🇭🇰HK-configs #2'
-  - '🇺🇸US-configs #62'
-  - '🇦🇪AE-configs #39'
-  - 'Domain-configs #33'
-  - '🇷🇺RU-configs #2'
-  - '🇯🇵JP-configs #4'
-  - '🇺🇸US-configs #63'
-  - '🇨🇾CY-configs #5'
-  - '🇺🇸US-configs #64'
-  - '🇦🇪AE-configs #40'
-  - 'Domain-configs #34'
-  - 🇮🇱IL-configs
-  - '🇺🇸US-configs #65'
-  - '🇺🇸US-configs #66'
-  - '🇺🇸US-configs #67'
-  - '🇭🇰HK-configs #3'
-  - '🇰🇷KR-configs #2'
-  - '🇦🇪AE-configs #41'
-  - '🇺🇸US-configs #68'
-  - 🇦🇱AL-configs
-  - 'Domain-configs #35'
-  - '🇩🇪DE-configs #20'
-  - '🇰🇷KR-configs #3'
-  - '🇩🇪DE-configs #21'
-  - '🇳🇱NL-configs #14'
-  - '🇺🇸US-configs #69'
   - '🇫🇮FI-configs #4'
-  - '🇰🇷KR-configs #4'
+  - '🇦🇪AE-configs #37'
+  - '🇬🇧GB-configs #10'
+  - '🇨🇦CA-configs #5'
+  - '🇸🇬SG-configs #5'
+  - 🇮🇳IN-configs
+  - '🇺🇸US-configs #62'
+  - 'Domain-configs #14'
+  - '🇩🇪DE-configs #15'
+  - '🇮🇳IN-configs #2'
+  - 'Domain-configs #15'
+  - 'Domain-configs #16'
+  - '🇭🇰HK-configs #2'
+  - '🇪🇸ES-configs #2'
+  - '🇦🇪AE-configs #38'
+  - '🇺🇸US-configs #63'
+  - '🇺🇸US-configs #64'
+  - '🇦🇪AE-configs #39'
+  - '🇺🇸US-configs #65'
+  - '🇩🇪DE-configs #16'
+  - 'Domain-configs #17'
+  - '🇺🇸US-configs #66'
+  - '🇪🇪EE-configs #2'
+  - '🇦🇪AE-configs #40'
+  - '🇺🇸US-configs #67'
+  - '🇺🇸US-configs #68'
+  - '🇺🇸US-configs #69'
+  - 'Domain-configs #18'
+  - '🇨🇦CA-configs #6'
   - '🇺🇸US-configs #70'
+  - '🇺🇸US-configs #71'
+  - '🇩🇪DE-configs #17'
+  - '🇺🇸US-configs #72'
+  - 🇱🇻LV-configs
+  - '🇺🇸US-configs #73'
+  - 'Domain-configs #19'
+  - '🇩🇪DE-configs #18'
+  - '🇩🇪DE-configs #19'
+  - '🇰🇷KR-configs #3'
+  - '🇦🇪AE-configs #41'
+  - 'Domain-configs #20'
+  - '🇺🇸US-configs #74'
+  - '🇺🇸US-configs #75'
+  - '🇨🇾CY-configs #2'
+  - '🇦🇪AE-configs #42'
+  - '🇨🇦CA-configs #7'
+  - '🇺🇸US-configs #76'
+  - '🇨🇦CA-configs #8'
+  - '🇩🇪DE-configs #20'
+  - '🇯🇵JP-configs #7'
+  - '🇺🇸US-configs #77'
+  - '🇦🇪AE-configs #43'
+  - 'Domain-configs #21'
+  - '🇺🇸US-configs #78'
+  - '🇦🇪AE-configs #44'
+  - '🇩🇪DE-configs #21'
+  - 'Domain-configs #22'
+  - 'Domain-configs #23'
+  - '🇺🇸US-configs #79'
+  - 'Domain-configs #24'
+  - '🇪🇸ES-configs #3'
+  - '🇺🇸US-configs #80'
 - name: 🔯 FALLBACK
   type: fallback
   interval: 120
